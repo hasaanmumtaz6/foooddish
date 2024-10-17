@@ -26,7 +26,7 @@ const Navbar = () => {
         <span className="wallet-line-cont !text-[26px]">
           <RiShoppingBasketFill className="cursor-pointer" />
         </span>
-        <span className="wallet-line-cont">23 Items</span>
+        <span className="wallet-line-cont">23 Dishes</span>
         <span className="wallet-line-cont">
           <FaMoneyCheckDollar />
           <b>90.9</b>

@@ -6,7 +6,7 @@
   --background-primary: #fc8a06;
   --background-secondry: #fcfcfc;
   --background-third: #03081f;
-  --background-fourth: #D9D9D9;
+  --background-fourth: #d9d9d9;
   --text-primary: #171717;
   --text-secondry: #fc8a06;
   --text-third: #fcfcfc;
@@ -61,3 +61,48 @@
   @apply text-[var(--text-secondry)];
 }
 /* Header */
+
+/* footer */
+.footer {
+  @apply w-full select-none;
+}
+.tabs-action_btn-box {
+  @apply bg-[var(--background-fourth)] py-5 px-10 flex items-start gap-5 justify-between w-full;
+}
+.logo-info-about {
+  @apply flex items-start gap-1 flex-col;
+}
+.tabs-action-subscription {
+  @apply flex items-start gap-10;
+}
+.mobile-stors-icon {
+  @apply flex items-center gap-1 py-2;
+}
+.mobile-stors-icon img {
+  @apply w-24 h-auto;
+}
+.copyright-line {
+  @apply bg-[var(--background-third)] text-[var(--text-third)] py-3 px-10 w-full text-sm flex items-center justify-between;
+}
+.footer-tabs {
+  @apply flex items-center gap-5;
+}
+.footer-tabs-box {
+  @apply flex flex-col items-start gap-3;
+}
+.footer-tabs-box a {
+  @apply underline;
+}
+.social-icons-footer {
+  @apply text-3xl flex items-center gap-3 py-2 px-4;
+}
+.subscription-footer-form {
+  @apply relative;
+}
+.subscription-footer-form input {
+  @apply bg-gray-300 border-2 border-gray-300 py-2 pl-4 pr-8 w-[200px] outline-none rounded-full border-r-0;
+}
+.subscription-footer-form button{
+  @apply bg-[var(--background-primary)] text-[var(--text-third)] py-2 px-4 rounded-full absolute right-3 top-[10px];
+}
+/* footer */

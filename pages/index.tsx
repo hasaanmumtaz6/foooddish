@@ -6,9 +6,12 @@ const Home = () => {
   return (
     <Layout>
       <Head>
-        <title>Food Dish - Home</title>
+        <title>Foood Dish - Home</title>
         <meta name="description" content="Bring delicious food at Home" />
       </Head>
+      <div>
+        <p>Home</p>
+      </div>
     </Layout>
   )
 }
