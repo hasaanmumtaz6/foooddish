@@ -15,10 +15,12 @@ const poppins = Poppins({
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <main className={`${poppins.className} px-10`}>
-      <Navbar />
-      <Header />
-      {children}
+    <main className={poppins.className}>
+      <section className="layout">
+        <Navbar />
+        <Header />
+        <section className="main-content">{children}</section>
+      </section>
       <Footer />
     </main>
   );
