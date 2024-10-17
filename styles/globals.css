@@ -7,21 +7,29 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* navbar */
+.navbar{
+  @apply flex items-center justify-between select-none bg-[#fcfcfc] pl-2 rounded-b-md border-b-[1px] border-l-2 border-gray-200;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.offer-line-navbar, .location-line-navbar{
+  @apply flex items-center gap-3;
 }
+.promomo-code-navbar, .location-btn-navbar{
+  @apply text-[#fc8a06] underline cursor-pointer;
+}
+.wallet-line-navbar{
+  @apply px-2  flex items-center gap-2 w-fit rounded-b-md bg-[#03081f];
+}
+.wallet-line-cont, .wallet-line-cont2{
+  @apply flex items-center p-2 text-[#fcfcfc] text-lg gap-1;
+}
+.wallet-line-cont{
+  @apply border-r-[1px] border-white;
+}
+/* navbar */
