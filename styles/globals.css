@@ -22,7 +22,7 @@
 }
 /* navbar */
 .navbar {
-  @apply w-full flex items-center justify-between bg-[var(--background-secondry)] pl-2 rounded-b-md border-b-[1px] border-l-2 border-gray-200;
+  @apply w-full flex items-center justify-between bg-[var(--background-secondry)] pl-5 rounded-b-md border-b-[1px] border-l-2 border-gray-200;
 }
 .offer-line-navbar,
 .location-line-navbar {
@@ -64,7 +64,7 @@
 
 /* footer */
 .footer {
-  @apply w-full select-none;
+  @apply w-full select-none pt-4;
 }
 .tabs-action_btn-box {
   @apply bg-[var(--background-fourth)] py-5 px-10 flex items-start gap-5 justify-between w-full;
@@ -106,3 +106,10 @@
   @apply bg-[var(--background-primary)] text-[var(--text-third)] py-2 px-4 rounded-full absolute right-3 top-[10px];
 }
 /* footer */
+
+
+/* Home-banner */
+.home-banner{
+  @apply w-full bg-[var(--background-secondry)] border-[1px] border-gray-200 rounded-md pt-10 pl-5;
+}
+/* Home-banner */
