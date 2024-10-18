@@ -3,6 +3,13 @@ import women1Pic from "@/public/img/character1.png";
 import women2Pic from "@/public/img/character2.png";
 import blob from "@/public/img/blob1.png";
 import Image from "next/image";
+import ReviewHomeBanner from "./ReviewHomeBanner";
+import popper from "@/public/img/poper.png";
+import tick from "@/public/img/TickBox.png";
+import tracking from "@/public/img/Tracking.png";
+import one from "@/public/img/one.png";
+import two from "@/public/img/two.png";
+import three from "@/public/img/three.png";
 
 const HomeBanner = () => {
   return (
@@ -22,7 +29,12 @@ const HomeBanner = () => {
           <button type="submit">Search</button>
         </form>
       </div>
-      <Image src={women1Pic} alt="character-1" className="absolute right-52 z-20 top-3" width={600} />
+      <Image
+        src={women1Pic}
+        alt="character-1"
+        className="absolute right-52 z-20 top-3"
+        width={600}
+      />
       <div className="absolute right-0 bottom-0 z-10">
         <div className="image-illustration-pic relative">
           <Image src={blob} alt="blob-pic" width={400} />
@@ -33,6 +45,30 @@ const HomeBanner = () => {
             className="absolute top-[16.5%] -left-5"
           />
         </div>
+        <ReviewHomeBanner
+          classnamenumbers="w-[13px] h-auto absolute -top-7 right-[17px]"
+          numberPics={one}
+          title="We’ve Received your order!"
+          description="Awaiting Restaurant acceptance"
+          titlepic={tracking}
+          classname="top-10 right-24"
+        />
+        <ReviewHomeBanner
+          classnamenumbers="w-[20px] h-auto absolute -top-7 right-[17px]"
+          numberPics={two}
+          title="Order Accepted!"
+          description="Your order will be delivered shortly"
+          titlepic={tick}
+          classname="top-[40%] right-6"
+        />
+        <ReviewHomeBanner
+          classnamenumbers="w-[20px] h-auto absolute -top-7 right-[17px]"
+          numberPics={three}
+          title="Your rider's nearby"
+          description="They're almost there - get ready!"
+          titlepic={popper}
+          classname="bottom-10 right-[52px]"
+        />
       </div>
     </section>
   );
