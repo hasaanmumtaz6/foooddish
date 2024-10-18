@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import logoPic from "@/public/img/logo.png";
 import Image, { StaticImageData } from "next/image";
 
