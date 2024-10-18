@@ -102,14 +102,35 @@
 .subscription-footer-form input {
   @apply bg-gray-300 border-2 border-gray-300 py-2 pl-4 pr-8 w-[200px] outline-none rounded-full border-r-0;
 }
-.subscription-footer-form button{
+.subscription-footer-form button {
   @apply bg-[var(--background-primary)] text-[var(--text-third)] py-2 px-4 rounded-full absolute right-3 top-[10px];
 }
 /* footer */
 
-
 /* Home-banner */
-.home-banner{
-  @apply w-full bg-[var(--background-secondry)] border-[1px] border-gray-200 rounded-md pt-10 pl-5;
+.home-banner {
+  @apply w-full h-[65vh] bg-[var(--background-secondry)] border-[1px] border-gray-200 rounded-md pl-5 flex items-center justify-start relative overflow-hidden;
+}
+.home-banner-search-form {
+  @apply relative flex items-center pt-2;
+}
+.home-banner-search-form input {
+  @apply outline-none w-[210px] pl-4 pr-6 py-2 bg-white rounded-full border-2 border-gray-200 border-r-0;
+}
+.home-banner-search-form button {
+  @apply bg-[var(--background-primary)] text-[var(--text-third)] py-2 px-6 rounded-full absolute right-12 top-[10px];
+}
+.banner-home-heading-one,
+.banner-home-heading-two {
+  @apply text-[30px] font-bold select-text cursor-context-menu;
+}
+.banner-home-heading-two {
+  @apply text-[var(--text-secondry)];
+}
+.banner-home-heading-one::selection {
+  @apply bg-black text-white;
+}
+.banner-home-heading-two::selection {
+  @apply bg-[var(--background-primary)] text-white;
 }
 /* Home-banner */
