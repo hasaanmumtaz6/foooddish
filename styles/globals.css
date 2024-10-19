@@ -192,3 +192,15 @@
   @apply text-[var(--text-secondry)] text-[12px];
 }
 /* popular Categories */
+
+/* Popular Restaurants */
+.Popular-Restaurants-Card-box{
+  @apply flex items-center justify-center w-full gap-8 py-4 flex-wrap;
+}
+.Popular-Restaurants-Card{
+  @apply flex flex-col w-[180px] bg-[var(--background-primary)] rounded-xl;
+}
+.Popular-Restaurants-Card b{
+  @apply px-2 pb-2 pt-3 text-white text-sm;
+} 
+/* Popular Restaurants */

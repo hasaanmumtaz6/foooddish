@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import HomeBanner from "./components/HomeBanner";
 import Deals from "./components/Deals";
 import PopularCategories from "./components/PopularCategories";
+import PopularRestaurants from "./components/PopularRestaurants";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <HomeBanner />
         <Deals />
         <PopularCategories />
+        <PopularRestaurants />
       </section>
     </Layout>
   );
