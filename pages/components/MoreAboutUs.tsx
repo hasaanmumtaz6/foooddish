@@ -17,8 +17,7 @@ import {
   FaInstagram,
   FaPhone,
   FaTiktok,
-  FaTwitter,
-  FaTwitterSquare,
+  FaTwitter
 } from "react-icons/fa";
 
 const MoreAboutUs = () => {
