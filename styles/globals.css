@@ -271,13 +271,13 @@
     rgba(3, 8, 31, 0.89) 87.9%
   );
 }
-.signup-card-details p{
+.signup-card-details p {
   @apply text-[var(--text-secondry)] text-sm;
 }
-.signup-card-details b{
+.signup-card-details b {
   @apply text-2xl;
 }
-.signup-card-details a{
+.signup-card-details a {
   @apply bg-[var(--background-primary)] px-6 py-2 rounded-full;
 }
 
