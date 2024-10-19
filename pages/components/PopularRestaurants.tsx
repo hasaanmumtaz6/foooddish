@@ -15,12 +15,12 @@ const PopularRestaurants = () => {
         <b>Popular Restaurants</b>
       </div>
       <span className='Popular-Restaurants-Card-box'>
-        <PopularRestaurantsCard restaurantName="McDonald’s" cardPic={McDonalds} />
-        <PopularRestaurantsCard restaurantName="Papa Jhones" cardPic={PapaJhones} />
-        <PopularRestaurantsCard restaurantName="KFC" cardPic={Kfc} />
-        <PopularRestaurantsCard restaurantName="Texas Chicken" cardPic={Texas} />
-        <PopularRestaurantsCard restaurantName="Burger King" cardPic={BurgerKing} />
-        <PopularRestaurantsCard restaurantName="Shauarma 1" cardPic={Shawarma} />
+        <PopularRestaurantsCard url="/" restaurantName="McDonald’s" cardPic={McDonalds} />
+        <PopularRestaurantsCard url="/" restaurantName="Papa Jhones" cardPic={PapaJhones} />
+        <PopularRestaurantsCard url="/" restaurantName="KFC" cardPic={Kfc} />
+        <PopularRestaurantsCard url="/" restaurantName="Texas Chicken" cardPic={Texas} />
+        <PopularRestaurantsCard url="/" restaurantName="Burger King" cardPic={BurgerKing} />
+        <PopularRestaurantsCard url="/" restaurantName="Shauarma 1" cardPic={Shawarma} />
       </span>
     </section>
   )

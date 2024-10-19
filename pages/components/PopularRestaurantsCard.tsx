@@ -1,15 +1,17 @@
 import Image, { StaticImageData } from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 interface typesofprops {
     restaurantName: string;
+    url: string;
     cardPic: StaticImageData;
   }
-const PopularRestaurantsCard = ({restaurantName, cardPic}:typesofprops) => {
+const PopularRestaurantsCard = ({restaurantName, cardPic, url}:typesofprops) => {
   return (
-    <span className='Popular-Restaurants-Card'>
+    <Link href={`${url}`} className='Popular-Restaurants-Card'>
       <Image src={cardPic} alt='Popular-Restaurants-Card-Pic' />
       <b>{restaurantName}</b>
-    </span>
+    </Link>
   )
 }
 

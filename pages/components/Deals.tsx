@@ -70,18 +70,21 @@ const Deals = () => {
         {active1 && (
           <span className="deals-food-cards">
             <DealsCard
+              url="/"
               title="Restaurant"
               company="Chef Burgers London"
               cardPic={burger}
             />
             <DealsCard
+              url="/"
               title="Restaurant"
-              company="Chef Burgers London"
+              company="Grand Ai Cafe London"
               cardPic={fishfry}
             />
             <DealsCard
+              url="/"
               title="Restaurant"
-              company="Chef Burgers London"
+              company="Butterbrot Caf’e London"
               cardPic={burger}
             />
           </span>
@@ -89,37 +92,43 @@ const Deals = () => {
         {active2 && (
           <span className="deals-food-cards">
             <DealsCard
+              url="/"
               title="Restaurant"
               company="Chef Burgers London"
               cardPic={burger}
             />
             <DealsCard
+              url="/"
               title="Restaurant"
-              company="Chef Burgers London"
-              cardPic={burger}
-            />
-            <DealsCard
-              title="Restaurant"
-              company="Chef Burgers London"
+              company="Grand Ai Cafe London"
               cardPic={fishfry}
+            />
+            <DealsCard
+              url="/"
+              title="Restaurant"
+              company="Butterbrot Caf’e London"
+              cardPic={burger}
             />
           </span>
         )}
         {active3 && (
           <span className="deals-food-cards">
             <DealsCard
-              title="Restaurant"
-              company="Chef Burgers London"
-              cardPic={fishfry}
-            />
-            <DealsCard
+              url="/"
               title="Restaurant"
               company="Chef Burgers London"
               cardPic={burger}
             />
             <DealsCard
+              url="/"
               title="Restaurant"
-              company="Chef Burgers London"
+              company="Grand Ai Cafe London"
+              cardPic={fishfry}
+            />
+            <DealsCard
+              url="/"
+              title="Restaurant"
+              company="Butterbrot Caf’e London"
               cardPic={burger}
             />
           </span>
@@ -127,18 +136,21 @@ const Deals = () => {
         {active4 && (
           <span className="deals-food-cards">
             <DealsCard
+              url="/"
               title="Restaurant"
               company="Chef Burgers London"
               cardPic={burger}
             />
             <DealsCard
+              url="/"
               title="Restaurant"
-              company="Chef Burgers London"
+              company="Grand Ai Cafe London"
               cardPic={fishfry}
             />
             <DealsCard
+              url="/"
               title="Restaurant"
-              company="Chef Burgers London"
+              company="Butterbrot Caf’e London"
               cardPic={burger}
             />
           </span>
