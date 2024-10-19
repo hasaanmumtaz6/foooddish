@@ -5,7 +5,7 @@ import Salads from '@/public/img/Salads.png';
 import PastaCasuals from '@/public/img/PastaCasuals.png';
 import Pizza from '@/public/img/Pizza.png';
 import Breakfast from '@/public/img/Breakfast.png';
-import Soups from '@/public/img/Soups.png';
+import Soups from '@/public/img/soups.png';
 
 const PopularCategories = () => {
   return (
