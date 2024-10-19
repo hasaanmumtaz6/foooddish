@@ -1,0 +1,17 @@
+/* Header */
+.header {
+  @apply flex items-center gap-4 justify-between w-full py-4;
+}
+.tabs-Box {
+  @apply flex items-center justify-between gap-5;
+}
+.tabs {
+  @apply flex items-center gap-5 text-[var(--text-primary)];
+}
+.reg-log-btn {
+  @apply flex items-center gap-2 bg-[var(--background-third)] text-white px-3 py-2 rounded-full cursor-pointer;
+}
+.reg-log-btn svg {
+  @apply text-[var(--text-secondry)];
+}
+/* Header */

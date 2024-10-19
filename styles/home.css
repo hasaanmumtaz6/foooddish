@@ -1,0 +1,267 @@
+/* Home Page design */
+/* Home-banner */
+.home-banner {
+  @apply w-full h-[65vh] bg-[var(--background-secondry)] border-[1px] border-gray-200 rounded-md pl-5 flex items-center justify-start relative overflow-hidden;
+}
+.home-banner-search-form {
+  @apply relative flex items-center pt-2;
+}
+.home-banner-search-form input {
+  @apply outline-none w-[210px] pl-4 pr-6 py-2 bg-white rounded-full border-2 border-gray-200 border-r-0;
+}
+.home-banner-search-form button {
+  @apply bg-[var(--background-primary)] text-[var(--text-third)] py-2 px-6 rounded-full absolute right-12 top-[10px];
+}
+.banner-home-heading-one,
+.banner-home-heading-two {
+  @apply text-[30px] font-bold select-text cursor-context-menu;
+}
+.banner-home-heading-two {
+  @apply text-[var(--text-secondry)];
+}
+.banner-home-heading-one::selection {
+  @apply bg-black text-white;
+}
+.banner-home-heading-two::selection {
+  @apply bg-[var(--background-primary)] text-white;
+}
+/* Home-banner */
+
+/* Deals-header-box */
+.deals-box-header {
+  @apply flex items-center justify-between px-2 py-4;
+}
+.deals-tabs-btns {
+  @apply flex items-center justify-end gap-4 flex-wrap;
+}
+.deals-tabs-btn {
+  @apply px-6 py-1 rounded-full border-[1px] border-white;
+}
+.deals-tabs-btn-active {
+  @apply border-[1px] border-[var(--text-secondry)] text-[var(--text-secondry)] px-6 py-1 rounded-full;
+}
+.deals-food-cards {
+  @apply flex items-center gap-12 justify-center w-full flex-wrap;
+}
+.deals-card {
+  @apply flex items-center justify-center w-[30%] relative rounded-lg overflow-hidden;
+}
+.text-box-deals-card {
+  @apply absolute w-full flex flex-col justify-end h-full items-start right-0 top-0 p-4;
+  background: linear-gradient(
+    245.7deg,
+    rgba(255, 255, 255, 0) 0.94%,
+    rgba(3, 8, 31, 0.19) 51.68%,
+    rgba(3, 8, 31, 0.89) 87.9%
+  );
+}
+.deals-card-title {
+  @apply text-[var(--text-secondry)];
+}
+.deals-card-company {
+  @apply text-white;
+}
+.delas-card-badge {
+  @apply absolute top-0 right-5 px-2 pt-3 pb-2 bg-[var(--background-third)] rounded-b-md text-white text-[12px];
+}
+/* Deals-header-box */
+
+/* popular Categories */
+.popular-categories-cards-box {
+  @apply w-full flex items-center justify-center gap-8 py-4 flex-wrap;
+}
+.Popular-category-box {
+  @apply py-4;
+}
+.Popular-Categories-Card {
+  @apply w-[180px] bg-[var(--background-five)] rounded-lg;
+}
+.Popular-Categories-Card img {
+  @apply w-full;
+}
+.detail-box-Popular-Categories-Card {
+  @apply p-2 flex flex-col;
+}
+.detail-box-Popular-Categories-Card b {
+  @apply text-sm;
+}
+.detail-box-Popular-Categories-Card p {
+  @apply text-[var(--text-secondry)] text-[12px];
+}
+/* popular Categories */
+
+/* Popular Restaurants */
+.Popular-Restaurants-Card-box {
+  @apply flex items-center justify-center w-full gap-8 py-4 flex-wrap;
+}
+.Popular-Restaurants-Card {
+  @apply flex flex-col w-[180px] bg-[var(--background-primary)] rounded-xl;
+}
+.Popular-Restaurants-Card b {
+  @apply px-2 pb-2 pt-3 text-white text-sm;
+}
+/* Popular Restaurants */
+
+/* Download-app-box */
+.download-app-box {
+  @apply w-full relative mt-10 py-12 pr-20 pl-12 h-[75vh] flex items-end flex-col justify-center bg-[var(--background-fourth)] rounded-lg;
+}
+.text-details-box-download-app-box {
+  @apply flex items-center justify-center flex-col;
+}
+.logo-box-download-app-section {
+  @apply flex items-center justify-center gap-2 py-2;
+}
+.logo-box-download-app-section img {
+  @apply w-44 h-auto;
+}
+.logo-box-download-app-section b {
+  @apply text-[60px];
+}
+.highlighted-text-box {
+  @apply w-[400px] p-6 rounded-full py-2 text-center text-lg bg-black text-white;
+}
+.highlighted-text-box b {
+  @apply font-normal;
+}
+.act-line-download-app {
+  @apply py-2 text-sm;
+}
+.mobile-store-badge-images {
+  @apply flex items-center gap-3;
+}
+.mobile-store-badge-images img {
+  @apply w-40;
+}
+.card-character-pics-box {
+  @apply w-full h-full absolute bottom-[13px] left-4 pointer-events-none;
+}
+.card-character-pics-box .image1 {
+  @apply absolute w-[600px] -top-3 -left-2;
+}
+.card-character-pics-box .image2 {
+  @apply absolute w-[600px];
+}
+/* Download-app-box */
+
+/* Signup cards */
+.signup-cards-box {
+  @apply py-5 flex items-center flex-wrap gap-6 w-full justify-center;
+}
+.sign-up-business,
+.sign-up-rider {
+  @apply w-[49%] flex items-center justify-center relative rounded-lg overflow-hidden;
+}
+
+.signup-card-details {
+  @apply absolute w-full flex flex-col gap-1 justify-end h-full text-white items-start right-0 top-0 p-4;
+  background: linear-gradient(
+    245.7deg,
+    rgba(255, 255, 255, 0) 0.94%,
+    rgba(3, 8, 31, 0.19) 51.68%,
+    rgba(3, 8, 31, 0.89) 87.9%
+  );
+}
+.signup-card-details p {
+  @apply text-[var(--text-secondry)] text-sm;
+}
+.signup-card-details b {
+  @apply text-2xl;
+}
+.signup-card-details a {
+  @apply bg-[var(--background-primary)] px-6 py-2 rounded-full;
+}
+
+.signup-card-badge {
+  @apply absolute top-0 left-5 px-2 pt-3 pb-2 bg-white rounded-b-md text-black text-[12px];
+}
+/* Signup cards */
+
+/* more about us */
+.more-about-us-box {
+  @apply w-full bg-[var(--background-fourth)] rounded-lg py-10 px-20 flex flex-col gap-2;
+}
+.header-more-about-us-box {
+  @apply w-full flex items-center justify-between gap-4;
+}
+.header-title-more-about-us-box {
+  @apply text-xl;
+}
+.tabs-box-more-about-us-box {
+  @apply flex items-center gap-2 text-sm;
+}
+.tabs-btn-box-more-about-us {
+  @apply px-6 py-2 border-[1px] rounded-full border-transparent;
+}
+.tabs-btn-box-more-about-us-active {
+  @apply px-6 py-2 border-[1px] rounded-full border-[var(--text-secondry)] text-[var(--text-secondry)];
+}
+.body-more-about-us-box {
+  @apply pt-4 flex items-center w-full;
+}
+.body-box-more-about-us-box {
+  @apply bg-[var(--background-third)] w-full text-white rounded-lg;
+}
+.frequent-question {
+  @apply w-full flex items-start justify-center;
+}
+.questions-box {
+  @apply w-[30%] h-full pr-5 pl-10 py-14;
+}
+.question-answer-box {
+  @apply w-[70%] pr-10 pl-5 py-14;
+}
+.questions-box {
+  @apply flex flex-col items-center justify-center gap-1 text-[12px];
+}
+.question {
+  @apply px-4 py-2 border-[1px] border-transparent rounded-full;
+}
+.question-active {
+  @apply px-4 py-2 bg-[var(--background-primary)] border-[1px] border-transparent rounded-full;
+}
+.qustion1-cards-box,
+.qustion2-cards-box {
+  @apply flex items-center justify-center gap-10 pb-4;
+}
+.question1-card,
+.question2-card {
+  @apply w-[200px] flex items-center gap-3 flex-col bg-[var(--background-fourth)] text-black text-center p-4 rounded-lg;
+}
+.question1-card b,
+.question2-card b {
+  @apply text-lg;
+}
+.question1-card img,
+.question2-card img {
+  @apply w-24;
+}
+.question1-card p,
+.question2-card p {
+  @apply text-[12px];
+}
+.help-and-support {
+  @apply w-full flex items-start justify-center gap-10;
+}
+.contact-form-more-about-us-box {
+  @apply flex flex-col gap-4 py-4 justify-center;
+}
+.contact-form-more-about-us-box button {
+  @apply bg-[var(--background-primary)] text-white px-6 py-2 rounded-full w-[320px];
+}
+.contact-form-more-about-us-box input,
+.contact-form-more-about-us-box textarea {
+  @apply outline-none w-[320px] px-4 py-1 rounded-md text-black;
+}
+.contact-form-more-about-us-box input {
+  @apply rounded-full;
+}
+.help-info {
+  @apply w-[30%];
+}
+.contact-form-more-about-us-box {
+  @apply w-[70%];
+}
+/* more about us */
+
+/* Home Page design */

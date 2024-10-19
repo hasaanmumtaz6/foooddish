@@ -1,0 +1,23 @@
+/* navbar */
+.navbar {
+  @apply w-full flex items-center justify-between bg-[var(--background-secondry)] pl-5 rounded-b-md border-b-[1px] border-l-2 border-gray-200;
+}
+.offer-line-navbar,
+.location-line-navbar {
+  @apply flex items-center gap-3;
+}
+.promomo-code-navbar,
+.location-btn-navbar {
+  @apply text-[var(--text-secondry)] underline cursor-pointer;
+}
+.wallet-line-navbar {
+  @apply px-2  flex items-center gap-2 w-fit rounded-b-md bg-[var(--background-third)];
+}
+.wallet-line-cont,
+.wallet-line-cont2 {
+  @apply flex items-center p-2 text-[var(--text-third)] text-lg gap-1;
+}
+.wallet-line-cont {
+  @apply border-r-[1px] border-white;
+}
+/* navbar */
