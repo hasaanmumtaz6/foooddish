@@ -236,19 +236,52 @@
 .act-line-download-app {
   @apply py-2 text-sm;
 }
-.mobile-store-badge-images{
+.mobile-store-badge-images {
   @apply flex items-center gap-3;
 }
-.mobile-store-badge-images img{
+.mobile-store-badge-images img {
   @apply w-40;
 }
-.card-character-pics-box{
+.card-character-pics-box {
   @apply w-full h-full absolute bottom-[13px] left-4 pointer-events-none;
 }
-.card-character-pics-box .image1{
+.card-character-pics-box .image1 {
   @apply absolute w-[600px] -top-3 -left-2;
 }
-.card-character-pics-box .image2{
+.card-character-pics-box .image2 {
   @apply absolute w-[600px];
 }
 /* Download-app-box */
+
+/* Signup cards */
+.signup-cards-box {
+  @apply py-5 flex items-center flex-wrap gap-6 w-full justify-center;
+}
+.sign-up-business,
+.sign-up-rider {
+  @apply w-[49%] flex items-center justify-center relative rounded-lg overflow-hidden;
+}
+
+.signup-card-details {
+  @apply absolute w-full flex flex-col gap-1 justify-end h-full text-white items-start right-0 top-0 p-4;
+  background: linear-gradient(
+    245.7deg,
+    rgba(255, 255, 255, 0) 0.94%,
+    rgba(3, 8, 31, 0.19) 51.68%,
+    rgba(3, 8, 31, 0.89) 87.9%
+  );
+}
+.signup-card-details p{
+  @apply text-[var(--text-secondry)] text-sm;
+}
+.signup-card-details b{
+  @apply text-2xl;
+}
+.signup-card-details a{
+  @apply bg-[var(--background-primary)] px-6 py-2 rounded-full;
+}
+
+.signup-card-badge {
+  @apply absolute top-0 left-5 px-2 pt-3 pb-2 bg-white rounded-b-md text-black text-[12px];
+}
+/* Signup cards */

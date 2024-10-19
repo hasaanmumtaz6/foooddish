@@ -6,6 +6,7 @@ import Deals from "./components/Deals";
 import PopularCategories from "./components/PopularCategories";
 import PopularRestaurants from "./components/PopularRestaurants";
 import AppDownload from "./components/AppDownload";
+import SignupCards from "./components/SignupCards";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <PopularCategories />
         <PopularRestaurants />
         <AppDownload />
+        <SignupCards />
       </section>
     </Layout>
   );
