@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "./components/Layout";
 import HomeBanner from "./components/HomeBanner";
 import Deals from "./components/Deals";
+import PopularCategories from "./components/PopularCategories";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <section>
         <HomeBanner />
         <Deals />
+        <PopularCategories />
       </section>
     </Layout>
   );

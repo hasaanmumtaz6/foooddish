@@ -146,7 +146,7 @@
   @apply px-6 py-1 rounded-full border-[1px] border-white;
 }
 .deals-tabs-btn-active {
-  @apply border-[1px] border-[var(--text-secondry)] px-6 py-1 rounded-full;
+  @apply border-[1px] border-[var(--text-secondry)] text-[var(--text-secondry)] px-6 py-1 rounded-full;
 }
 .deals-food-cards{
   @apply flex items-center gap-12 justify-center w-full flex-wrap;
@@ -169,6 +169,26 @@
 }
 /* Deals-header-box */
 
-
-/* background: linear-gradient(245.7deg, rgba(255, 255, 255, 0) 0.94%, rgba(3, 8, 31, 0.19) 51.68%, rgba(3, 8, 31, 0.89) 87.9%);
- */
+/* popular Categories */
+.popular-categories-cards-box{
+  @apply w-full flex items-center justify-center gap-8 py-4 flex-wrap;
+}
+.Popular-category-box{
+  @apply py-4;
+}
+.Popular-Categories-Card{
+  @apply w-[180px] bg-[#f5f5f5] rounded-lg;
+}
+.Popular-Categories-Card img{
+  @apply w-full;
+}
+.detail-box-Popular-Categories-Card{
+  @apply p-2 flex flex-col;
+}
+.detail-box-Popular-Categories-Card b{
+  @apply text-sm;
+}
+.detail-box-Popular-Categories-Card p{
+  @apply text-[var(--text-secondry)] text-[12px];
+}
+/* popular Categories */

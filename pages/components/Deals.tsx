@@ -37,7 +37,7 @@ const Deals = () => {
   return (
     <section className="deals-exclusive-box">
       <div className="deals-box-header section-header">
-        <b>Up to -40% {"🎊"} Foood exclusive deals</b>
+        <b>Up to -40% {"🎊"} Foood Dish exclusive deals</b>
         <span className="deals-tabs-btns">
           <button
             className={active1 ? "deals-tabs-btn-active" : "deals-tabs-btn"}
