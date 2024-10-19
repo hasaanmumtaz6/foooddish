@@ -32,8 +32,8 @@ const HomeBanner = () => {
       <Image
         src={women1Pic}
         alt="character-1"
-        className="absolute right-52 z-20 top-3"
-        width={600}
+        className="absolute right-52 z-20 bottom-0"
+        width={550}
       />
       <div className="absolute right-0 bottom-0 z-10">
         <div className="image-illustration-pic relative">

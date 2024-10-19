@@ -134,3 +134,41 @@
   @apply bg-[var(--background-primary)] text-white;
 }
 /* Home-banner */
+
+/* Deals-header-box */
+.deals-box-header {
+  @apply flex items-center justify-between px-2 py-4;
+}
+.deals-tabs-btns {
+  @apply flex items-center justify-end gap-4 flex-wrap;
+}
+.deals-tabs-btn {
+  @apply px-6 py-1 rounded-full border-[1px] border-white;
+}
+.deals-tabs-btn-active {
+  @apply border-[1px] border-[var(--text-secondry)] px-6 py-1 rounded-full;
+}
+.deals-food-cards{
+  @apply flex items-center gap-12 justify-center w-full flex-wrap;
+}
+.deals-card{
+  @apply flex items-center justify-center w-[30%] relative rounded-lg overflow-hidden;
+}
+.text-box-deals-card{
+  @apply absolute w-full flex flex-col justify-end h-full items-start right-0 top-0 p-4;
+  background: linear-gradient(245.7deg, rgba(255, 255, 255, 0) 0.94%, rgba(3, 8, 31, 0.19) 51.68%, rgba(3, 8, 31, 0.89) 87.9%);
+}
+.deals-card-title{
+  @apply text-[var(--text-secondry)];
+}
+.deals-card-company{
+  @apply text-white;
+}
+.delas-card-badge{
+  @apply absolute top-0 right-5 px-2 pt-3 pb-2 bg-[var(--background-third)] rounded-b-md text-white text-[12px];
+}
+/* Deals-header-box */
+
+
+/* background: linear-gradient(245.7deg, rgba(255, 255, 255, 0) 0.94%, rgba(3, 8, 31, 0.19) 51.68%, rgba(3, 8, 31, 0.89) 87.9%);
+ */

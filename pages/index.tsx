@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import Layout from "./components/Layout";
 import HomeBanner from "./components/HomeBanner";
+import Deals from "./components/Deals";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       </Head>
       <section>
         <HomeBanner />
+        <Deals />
       </section>
     </Layout>
   );
