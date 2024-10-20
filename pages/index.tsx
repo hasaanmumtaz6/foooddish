@@ -8,7 +8,7 @@ import PopularRestaurants from "./components/PopularRestaurants";
 import AppDownload from "./components/AppDownload";
 import SignupCards from "./components/SignupCards";
 import MoreAboutUs from "./components/MoreAboutUs";
-import Counterdetail from "./components/counterdetail";
+import Counterdetail from "./components/Counterdetail";
 
 const Home = () => {
   return (
