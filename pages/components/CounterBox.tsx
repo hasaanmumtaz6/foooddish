@@ -28,7 +28,7 @@ const CounterBox = ({ target, label }: CounterBoxProps) => {
 
   return (
     <div
-      className="w-1/4 bg-[var(--background-primary)] p-4"
+      className="w-1/4 bg-[var(--background-primary)] px-6 py-4 flex flex-col items-center justify-center gap-4 text-white"
     >
       <span className="block text-4xl font-bold">{count}+</span>
       <p className="mt-2 text-lg font-medium">{label}</p>
