@@ -14,8 +14,8 @@ const Footer = () => {
         <span className="logo-info-about">
           <Image src={logo} alt="logo" />
           <span className="mobile-stors-icon">
-            <Image src={appstore} alt="app-store" />
-            <Image src={playstore} alt="play-store" />
+            <Link href="/"><Image src={appstore} alt="app-store" /></Link>
+            <Link href="/"><Image src={playstore} alt="play-store" /></Link>
           </span>
           <p className="text-sm">
             Company # 490039-445, Registered <br /> with House of companies.
