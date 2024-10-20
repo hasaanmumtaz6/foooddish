@@ -21,7 +21,7 @@ const ReviewHomeBanner = ({
 }: typesofprops) => {
   return (
     <div
-      className={`w-[200px] absolute z-30 ${classname} bg-white py-2 px-3 rounded-md border-[1px] border-gray-200`}
+      className={`w-[200px] absolute z-30 ${classname} bg-white py-2 px-3 rounded-md border-[1px] border-gray-200 review-box-home-banner`}
     >
       <Image src={numberPics} alt="number-Pics" className={`${classnamenumbers}`} />
       <span className="flex items-center gap-4 justify-between">

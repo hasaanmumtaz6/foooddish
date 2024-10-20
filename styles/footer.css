@@ -42,3 +42,38 @@
   @apply bg-[var(--background-primary)] text-[var(--text-third)] py-2 px-4 rounded-full absolute right-3 top-[10px];
 }
 /* footer */
+
+/* Responsive code */
+/* Desktop screens 1150px */
+@media (max-width: 1150px) and (min-width: 900px) {
+  .logo-pic-footer {
+    @apply w-[150px];
+  }
+  .subscription-social_icons-box b,
+  .footer-tabs-box b {
+    @apply text-sm pb-4;
+  }
+  .subscription-social_icons-box p,
+  .footer-tabs-box a,
+  .copyright-line p,
+  .copyright-line span a {
+    @apply text-[0.675rem];
+  }
+  .subscription-social_icons-box {
+    @apply flex flex-col gap-2;
+  }
+  .subscription-footer-form button {
+    @apply right-[-0.85rem];
+  }
+  .mobile-stors-icon img {
+    @apply w-[5rem];
+  }
+}
+/* Desktop screens 1150px */
+
+/* tab/ipad screens */
+/* Desktop screens */
+
+/* Desktop screens */
+/* Desktop screens */
+/* Responsive code */

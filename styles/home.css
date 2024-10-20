@@ -265,3 +265,154 @@
 /* more about us */
 
 /* Home Page design */
+
+/* Responsive code */
+/* Desktop screens 1150px */
+@media (max-width: 1150px) and (min-width: 900px) {
+  /* home banner */
+  .home-banner {
+    @apply h-[52vh];
+  }
+  .blob-pic {
+    @apply w-[320px];
+  }
+  .review-box-home-banner {
+    @apply w-[150px];
+  }
+  .review-box-home-banner span b {
+    @apply !text-[6px];
+  }
+  .numberpics {
+    @apply w-[18px];
+  }
+  .number1pic {
+    @apply w-[9px];
+  }
+  .review-banner3 {
+    @apply bottom-5 right-[45px];
+  }
+  .review-banner1 {
+    @apply top-8 right-16;
+  }
+  .character1-pic {
+    @apply w-[400px] pointer-events-none;
+  }
+  /* Home banner */
+
+  /* Deals Box */
+  .deals-box-header b {
+    @apply text-sm;
+  }
+  .deals-tabs-btn {
+    @apply px-2 py-1;
+  }
+  .deals-food-cards {
+    @apply gap-8;
+  }
+  /* Deals Box */
+
+  /* popular categories */
+  .popular-categories-cards-box {
+    @apply gap-4;
+  }
+  .Popular-Categories-Card {
+    @apply w-[120px];
+  }
+  .detail-box-Popular-Categories-Card b {
+    @apply text-[10px];
+  }
+  .detail-box-Popular-Categories-Card p {
+    @apply text-[9px];
+  }
+  /* popular categories */
+
+  /* popular restaurants */
+  .Popular-Restaurants-Card-box {
+    @apply gap-4;
+  }
+  .Popular-Restaurants-Card {
+    @apply w-[120px] rounded-md;
+  }
+  .Popular-Restaurants-Card b {
+    @apply text-[9px];
+  }
+  /* popular restaurants */
+
+  /* Download App */
+  .download-app-box {
+    @apply h-[51vh];
+  }
+  .card-character-pics-box {
+    @apply relative bottom-[67px] -left-[71px];
+  }
+  .card-character-pics-box .image1,
+  .card-character-pics-box .image2 {
+    @apply w-[420px];
+  }
+  .logo-box-download-app-section img {
+    @apply w-[8rem];
+  }
+  .logo-box-download-app-section b {
+    @apply text-[37px];
+  }
+  .act-line-download-app {
+    @apply text-[0.575rem];
+  }
+  .highlighted-text-box {
+    @apply text-[1.5rem] text-right;
+  }
+  .mobile-store-badge-images img {
+    @apply w-[6rem];
+  }
+  /* Download App */
+
+  /* sign-up cards box */
+  .signup-cards-box {
+    @apply gap-2;
+  }
+  /* sign-up cards box */
+
+  /* know more about Us */
+  .more-about-us-box {
+    @apply px-6;
+  }
+  .tabs-btn-box-more-about-us-active,
+  .tabs-btn-box-more-about-us,
+  .question1-card b,
+  .question2-card b {
+    @apply px-2 text-[12px];
+  }
+  .header-title-more-about-us-box {
+    @apply text-[18px];
+  }
+  .help-info {
+    @apply w-[40%];
+  }
+  .contact-form-more-about-us-box {
+    @apply w-[60%];
+  }
+  .qustion1-cards-box,
+  .qustion2-cards-box {
+    @apply gap-2;
+  }
+  .question1-card p,
+  .question2-card p {
+    @apply text-[9px];
+  }
+  .question1-card img,
+  .question2-card img {
+    @apply w-[4rem];
+  }
+  .questions-box {
+    @apply pr-[0.25rem] pl-[1.25rem];
+  }
+  /* know more about Us */
+}
+/* Desktop screens 1150px */
+
+/* tab/ipad screens */
+/* Desktop screens */
+
+/* Desktop screens */
+/* Desktop screens */
+/* Responsive code */

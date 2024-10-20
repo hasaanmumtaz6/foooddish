@@ -10,14 +10,13 @@ import trackfood from "@/public/img/trackfood.png";
 import discount from "@/public/img/discount.png";
 import orderarea from "@/public/img/orderarea.png";
 import logo from "@/public/img/logo.png";
-import { FaEnvelope, FaLocationDot } from "react-icons/fa6";
+import { FaEnvelope, FaLocationDot, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import Link from "next/link";
 import {
-  FaFacebook,
+  FaFacebookF,
   FaInstagram,
   FaPhone,
-  FaTiktok,
-  FaTwitter
+  FaTiktok
 } from "react-icons/fa";
 
 const MoreAboutUs = () => {
@@ -332,18 +331,21 @@ const MoreAboutUs = () => {
                 <p>
                   <b>&#x2022;</b> Visit Our Social Media
                 </p>
-                <span className="flex items-center gap-4 text-white text-xl">
-                  <Link href="/">
-                    <FaTwitter />
+                <span className="flex items-center gap-2 text-white text-xl">
+                  <Link href="/" className="border-[1px] border-[var(--background-third)] bg-transparrent rounded-full hover:bg-[#000] text-white text-xl p-2">
+                    <FaXTwitter />
                   </Link>
-                  <Link href="/">
-                    <FaFacebook />
+                  <Link href="/" className="border-[1px] border-[var(--background-third)] bg-transparrent rounded-full hover:bg-[#0000ff] text-white text-xl p-2">
+                    <FaFacebookF />
                   </Link>
-                  <Link href="/">
+                  <Link href="/" className="border-[1px] border-[var(--background-third)] bg-transparrent rounded-full hover:bg-[#f700ff] text-white text-xl p-2">
                     <FaInstagram />
                   </Link>
-                  <Link href="/">
+                  <Link href="/" className="border-[1px] border-[var(--background-third)] bg-transparrent rounded-full hover:bg-[#1d1d1d] text-white text-xl p-2">
                     <FaTiktok />
+                  </Link>
+                  <Link href="/" className="border-[1px] border-[var(--background-third)] bg-transparrent rounded-full hover:bg-[#ff0000] text-white text-xl p-2">
+                    <FaYoutube />
                   </Link>
                 </span>
               </span>

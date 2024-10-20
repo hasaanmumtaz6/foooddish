@@ -4,18 +4,22 @@ import logo from "@/public/img/logo2.png";
 import appstore from "@/public/img/appstore.png";
 import playstore from "@/public/img/playstore.png";
 import Link from "next/link";
-import { FaSquareFacebook, FaSquareInstagram } from "react-icons/fa6";
-import { AiFillTikTok } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="tabs-action_btn-box">
         <span className="logo-info-about">
-          <Image src={logo} alt="logo" />
+          <Image src={logo} alt="logo" className="logo-pic-footer" />
           <span className="mobile-stors-icon">
-            <Link href="/"><Image src={appstore} alt="app-store" /></Link>
-            <Link href="/"><Image src={playstore} alt="play-store" /></Link>
+            <Link href="/">
+              <Image src={appstore} alt="app-store" />
+            </Link>
+            <Link href="/">
+              <Image src={playstore} alt="play-store" />
+            </Link>
           </span>
           <p className="text-sm">
             Company # 490039-445, Registered <br /> with House of companies.
@@ -35,15 +39,38 @@ const Footer = () => {
               </Link>
             </p>
             <span className="social-icons-footer">
-              <Link href="/">
-                <FaSquareInstagram />
-              </Link>
-              <Link href="/">
-                <FaSquareFacebook />
-              </Link>
-              <Link href="/">
-                <AiFillTikTok />
-              </Link>
+              <span className="flex items-center gap-2 text-white text-xl">
+                <Link
+                  href="/"
+                  className="border-[1px] border-[var(--background-fourth)] bg-transparrent rounded-full hover:bg-[#000] text-black hover:text-white text-xl p-2"
+                >
+                  <FaXTwitter />
+                </Link>
+                <Link
+                  href="/"
+                  className="border-[1px] border-[var(--background-fourth)] bg-transparrent rounded-full hover:bg-[#0000ff] text-black hover:text-white text-xl p-2"
+                >
+                  <FaFacebookF />
+                </Link>
+                <Link
+                  href="/"
+                  className="border-[1px] border-[var(--background-fourth)] bg-transparrent rounded-full hover:bg-[#f700ff] text-black hover:text-white text-xl p-2"
+                >
+                  <FaInstagram />
+                </Link>
+                <Link
+                  href="/"
+                  className="border-[1px] border-[var(--background-fourth)] bg-transparrent rounded-full hover:bg-[#1d1d1d] text-black hover:text-white text-xl p-2"
+                >
+                  <FaTiktok />
+                </Link>
+                <Link
+                  href="/"
+                  className="border-[1px] border-[var(--background-fourth)] bg-transparrent rounded-full hover:bg-[#ff0000] text-black hover:text-white text-xl p-2"
+                >
+                  <FaYoutube />
+                </Link>
+              </span>
             </span>
           </div>
           <span className="footer-tabs-box legal-page-tabs">

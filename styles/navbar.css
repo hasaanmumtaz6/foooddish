@@ -21,3 +21,25 @@
   @apply border-r-[1px] border-white;
 }
 /* navbar */
+
+/* Responsive code */
+/* Desktop screens 1150px */
+@media (max-width: 1150px) and (min-width: 900px) {
+  .offer-line-navbar {
+    @apply text-sm;
+  }
+  .location-line-navbar {
+    @apply hidden;
+  }
+  .wallet-line-navbar span, .wallet-line-cont2 {
+    @apply !text-lg;
+  }
+}
+/* Desktop screens 1150px */
+
+/* tab/ipad screens */
+/* Desktop screens */
+
+/* Desktop screens */
+/* Desktop screens */
+/* Responsive code */

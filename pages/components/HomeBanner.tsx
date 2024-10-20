@@ -32,42 +32,42 @@ const HomeBanner = () => {
       <Image
         src={women1Pic}
         alt="character-1"
-        className="absolute right-52 z-20 bottom-0"
+        className="absolute right-52 z-20 bottom-0 character1-pic"
         width={550}
       />
       <div className="absolute right-0 bottom-0 z-10">
         <div className="image-illustration-pic relative">
-          <Image src={blob} alt="blob-pic" width={400} />
+          <Image src={blob} alt="blob-pic" width={400} className="blob-pic" />
           <Image
             src={women2Pic}
             alt="character-2"
             width={250}
-            className="absolute top-[16.5%] -left-5"
+            className="absolute top-[16.5%] -left-5 character2-pic"
           />
         </div>
         <ReviewHomeBanner
-          classnamenumbers="w-[13px] h-auto absolute -top-7 right-[17px]"
+          classnamenumbers="w-[13px] number1pic numberpics h-auto absolute -top-7 right-[17px]"
           numberPics={one}
           title="We’ve Received your order!"
           description="Awaiting Restaurant acceptance"
           titlepic={tracking}
-          classname="top-10 right-24"
+          classname="top-10 right-24 reviewbanner review-banner1"
         />
         <ReviewHomeBanner
-          classnamenumbers="w-[20px] h-auto absolute -top-7 right-[17px]"
+          classnamenumbers="w-[20px] number2pic numberpics h-auto absolute -top-7 right-[17px]"
           numberPics={two}
           title="Order Accepted!"
           description="Your order will be delivered shortly"
           titlepic={tick}
-          classname="top-[40%] right-6"
+          classname="top-[40%] right-6 reviewbanner review-banner2"
         />
         <ReviewHomeBanner
-          classnamenumbers="w-[20px] h-auto absolute -top-7 right-[17px]"
+          classnamenumbers="w-[20px] number3pic numberpics h-auto absolute -top-7 right-[17px]"
           numberPics={three}
           title="Your rider's nearby"
           description="They're almost there - get ready!"
           titlepic={popper}
-          classname="bottom-10 right-[52px]"
+          classname="bottom-10 right-[52px] reviewbanner review-banner3"
         />
       </div>
     </section>

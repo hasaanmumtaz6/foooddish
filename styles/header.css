@@ -15,3 +15,24 @@
   @apply text-[var(--text-secondry)];
 }
 /* Header */
+
+
+/* Responsive code */
+/* Desktop screens 1150px */
+@media (max-width: 1150px) and (min-width: 900px) {
+ .logo-Box img{
+  @apply w-[150px];
+ }
+ .tabs-Box .tabs a, .reg-log-btn{
+  @apply text-sm;
+ }
+ 
+}
+/* Desktop screens 1150px */
+
+/* tab/ipad screens */
+/* Desktop screens */
+
+/* Desktop screens */
+/* Desktop screens */
+/* Responsive code */
