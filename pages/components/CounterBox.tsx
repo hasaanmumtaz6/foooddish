@@ -3,9 +3,10 @@ import React, { useEffect, useState } from "react";
 interface CounterBoxProps {
   target: number;
   label: string;
+  borderClass: string;
 }
 
-const CounterBox = ({ target, label }: CounterBoxProps) => {
+const CounterBox = ({ target, label, borderClass }: CounterBoxProps) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -28,10 +29,10 @@ const CounterBox = ({ target, label }: CounterBoxProps) => {
 
   return (
     <div
-      className="w-1/4 bg-[var(--background-primary)] px-6 py-4 flex flex-col items-center justify-center gap-4 text-white"
+      className={`${borderClass} w-1/4 bg-[var(--background-primary)] flex flex-col items-center justify-center gap-1 text-white`}
     >
       <span className="block text-4xl font-bold">{count}+</span>
-      <p className="mt-2 text-lg font-medium">{label}</p>
+      <p className="pt-1 text-lg font-medium">{label}</p>
     </div>
   );
 };
