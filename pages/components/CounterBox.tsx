@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 interface CounterBoxProps {
   target: number;
   label: string;
-  colored?: boolean;
 }
 
 const CounterBox = ({ target, label }: CounterBoxProps) => {
