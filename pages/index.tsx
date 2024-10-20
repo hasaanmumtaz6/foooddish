@@ -8,6 +8,7 @@ import PopularRestaurants from "./components/PopularRestaurants";
 import AppDownload from "./components/AppDownload";
 import SignupCards from "./components/SignupCards";
 import MoreAboutUs from "./components/MoreAboutUs";
+import Counterdetail from "./components/counterdetail";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         <AppDownload />
         <SignupCards />
         <MoreAboutUs />
+        <Counterdetail />
       </section>
     </Layout>
   );
