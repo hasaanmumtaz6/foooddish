@@ -760,6 +760,33 @@
     @apply hidden;
   }
   /* Deals */
+  
+/* popular categories */
+.popular-categories-cards-box {
+  @apply gap-6;
+}
+.Popular-Categories-Card {
+  @apply w-[160px];
+}
+.detail-box-Popular-Categories-Card b {
+  @apply text-[12px];
+}
+.detail-box-Popular-Categories-Card p {
+  @apply text-[10px];
+}
+/* popular categories */
+
+/* popular restaurants */
+.Popular-Restaurants-Card-box {
+  @apply gap-6;
+}
+.Popular-Restaurants-Card {
+  @apply w-[160px] rounded-md;
+}
+.Popular-Restaurants-Card b {
+  @apply text-[10px];
+}
+/* popular restaurants */
 
   /* Download app */
   .download-app-box {
