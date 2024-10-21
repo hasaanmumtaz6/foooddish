@@ -64,6 +64,12 @@ const Deals = () => {
             Other
           </button>
         </span>
+        <select className="mobile-deals-categories-selector">
+          <option value="" onClick={button1Click}>Sushi</option>
+          <option value="" onClick={button2Click}>Vegan</option>
+          <option value="" onClick={button3Click}>Pizza & Fast food</option>
+          <option value="" onClick={button4Click}>Other</option>
+        </select>
       </div>
 
       <div>

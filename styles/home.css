@@ -64,6 +64,9 @@
 .delas-card-badge {
   @apply absolute top-0 right-5 px-2 pt-3 pb-2 bg-[var(--background-third)] rounded-b-md text-white text-[12px];
 }
+.mobile-deals-categories-selector {
+  @apply hidden;
+}
 /* Deals-header-box */
 
 /* popular Categories */
@@ -299,6 +302,9 @@
   }
   .character1-pic {
     @apply w-[400px] pointer-events-none;
+  }
+  .icon-btn-search-form-home-baaner {
+    @apply hidden;
   }
   /* Home banner */
 
@@ -573,7 +579,8 @@
   .question2-card b {
     @apply px-2 text-[12px];
   }
-  .header-more-about-us-box, .counter-box {
+  .header-more-about-us-box,
+  .counter-box {
     @apply hidden;
   }
   .header-title-more-about-us-box {
@@ -608,9 +615,112 @@
 /* tab/ipad screens 899px - 650px  */
 
 /* tab/ipad screens 649px - 450px  */
-/* @media (max-width: 899px) and (min-width: 650px) {
-  
-} */
+@media (max-width: 649px) and (min-width: 450px) {
+  .home-page-box {
+    @apply px-5;
+  }
+  /* Home Banner */
+  .home-banner {
+    @apply bg-[var(--background-third)] text-white justify-center items-center text-center h-[45vh] p-6;
+  }
+  .pics-and-illustration-box-homebanner,
+  .character1-pic,
+  .btn-search-form-home-baaner,
+  .deals-tabs-btns {
+    @apply hidden;
+  }
+  .home-banner-search-form {
+    @apply justify-center;
+  }
+  .home-banner-search-form input {
+    @apply text-black;
+  }
+  .icon-btn-search-form-home-baaner {
+    @apply !p-2;
+  }
+  /* Home Banner */
+
+  /* Deals */
+  .deals-exclusive-box {
+    @apply hidden;
+  }
+  /* Deals */
+
+  /* Download app */
+  .download-app-box {
+    @apply h-[45vh] items-center justify-center mt-6 !p-[3rem];
+  }
+  .card-character-pics-box {
+    @apply hidden;
+  }
+  .logo-box-download-app-section img {
+    @apply w-[150px] h-auto;
+  }
+  .logo-box-download-app-section b {
+    @apply text-2xl;
+  }
+  .highlighted-text-box {
+    @apply w-[350px];
+  }
+  /* Download app */
+
+  /* sign-up-cards-box */
+  .signup-cards-box{
+    @apply gap-2;
+  }
+  .sign-up-business, .sign-up-rider{
+    @apply w-[48%];
+  }
+  .signup-card-badge{
+    @apply text-[8px] hidden;
+  }
+  .signup-card-details p, .signup-card-details b, .signup-card-details a{
+    @apply text-[8px] leading-3;
+  }
+  /* sign-up-cards-box */
+  /* know more about Us */
+  .more-about-us-box {
+    @apply p-6;
+  }
+  .tabs-btn-box-more-about-us-active,
+  .tabs-btn-box-more-about-us,
+  .question1-card b,
+  .question2-card b {
+    @apply px-2 text-[12px];
+  }
+  .header-more-about-us-box,
+  .counter-box {
+    @apply hidden;
+  }
+  .header-title-more-about-us-box {
+    @apply text-[18px];
+  }
+  .help-info,
+  .questions-box,
+  .questions-answer-box,
+  .contact-form-more-about-us-box {
+    @apply w-[50%];
+  }
+  .qustion1-cards-box,
+  .qustion2-cards-box {
+    @apply gap-2 flex-col;
+  }
+  .question1-card p,
+  .question2-card p {
+    @apply text-[9px];
+  }
+  .question1-card img,
+  .question2-card img {
+    @apply w-[4rem];
+  }
+  .questions-box {
+    @apply pr-[0.25rem] pl-[1.25rem];
+  }
+  .Frequent-Questions-title {
+    @apply flex text-center w-full justify-center font-bold text-2xl;
+  }
+  /* know more about Us */
+}
 /* tab/ipad screens 649px - 450px  */
 
 /* Mobile Screen screens 449px - 200px */

@@ -10,6 +10,7 @@ import tracking from "@/public/img/Tracking.png";
 import one from "@/public/img/one.png";
 import two from "@/public/img/two.png";
 import three from "@/public/img/three.png";
+import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const HomeBanner = () => {
   return (
@@ -26,7 +27,12 @@ const HomeBanner = () => {
 
         <form className="home-banner-search-form">
           <input type="search" placeholder="Enter Foood Name" />
-          <button type="submit">Search</button>
+          <button type="submit" className="btn-search-form-home-baaner">
+            Search
+          </button>
+          <button type="submit" className="icon-btn-search-form-home-baaner">
+            <IoIosArrowDroprightCircle className="text-black text-2xl" />
+          </button>
         </form>
       </div>
       <Image
@@ -35,7 +41,7 @@ const HomeBanner = () => {
         className="absolute right-52 z-20 bottom-0 character1-pic"
         width={550}
       />
-      <div className="absolute right-0 bottom-0 z-10">
+      <div className="absolute right-0 bottom-0 z-10 pics-and-illustration-box-homebanner">
         <div className="image-illustration-pic relative">
           <Image src={blob} alt="blob-pic" width={400} className="blob-pic" />
           <Image
