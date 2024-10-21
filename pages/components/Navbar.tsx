@@ -23,15 +23,15 @@ const Navbar = () => {
         <button className="location-btn-navbar">Change Location</button>
       </span>
       <span className="wallet-line-navbar">
-        <span className="wallet-line-cont !text-[26px]">
+        <span className="wallet-line-cont shoping-baskit-navabr !text-[26px]">
           <RiShoppingBasketFill className="cursor-pointer" />
         </span>
-        <span className="wallet-line-cont">23 Dishes</span>
-        <span className="wallet-line-cont">
+        <span className="wallet-line-cont number-of-dishes-navbar">23 Dishes</span>
+        <span className="wallet-line-cont balance-navbar">
           <FaMoneyCheckDollar />
           <b>90.9</b>
         </span>
-        <span className="wallet-line-cont2">
+        <span className="wallet-line-cont2 top-up-navbar">
           <FaArrowCircleDown className="cursor-pointer" />
         </span>
       </span>

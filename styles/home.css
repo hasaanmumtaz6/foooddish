@@ -262,12 +262,15 @@
 .contact-form-more-about-us-box {
   @apply w-[70%];
 }
+.Frequent-Questions-title {
+  @apply hidden;
+}
 /* more about us */
 
 /* Home Page design */
 
 /* Responsive code */
-/* Desktop screens 1150px */
+/* Desktop screens 1150px - 900px */
 @media (max-width: 1150px) and (min-width: 900px) {
   /* home banner */
   .home-banner {
@@ -408,11 +411,212 @@
   }
   /* know more about Us */
 }
-/* Desktop screens 1150px */
+/* Desktop screens 1150px - 900px */
 
-/* tab/ipad screens */
-/* Desktop screens */
+/* tab/ipad screens 899px - 650px  */
+@media (max-width: 899px) and (min-width: 650px) {
+  /* home banner */
+  .home-banner {
+    @apply h-[36vh];
+  }
+  .blob-pic {
+    @apply w-[200px];
+  }
+  .review-box-home-banner {
+    @apply w-[120px];
+  }
+  .review-box-home-banner span b {
+    @apply !text-[4px];
+  }
+  .numberpics {
+    @apply w-[15px];
+  }
+  .number1pic {
+    @apply w-[9px] top-0 -right-4;
+  }
+  .review-banner3 {
+    @apply bottom-3 right-[38px];
+  }
+  .review-banner1 {
+    @apply top-6 right-14;
+  }
+  .character1-pic {
+    @apply w-[260px] left-[30%] pointer-events-none;
+  }
+  .character2-pic {
+    @apply w-[140px];
+  }
+  .review-banner2 {
+    @apply top-[100px] right-3;
+  }
+  .review-banner1 {
+    @apply top-2 right-6;
+  }
+  .number2pic {
+    @apply -top-6;
+  }
+  .review-banner3 {
+    @apply hidden;
+  }
+  .banner-home-heading-one,
+  .banner-home-heading-two {
+    @apply text-xl;
+  }
+  .action-text-box p {
+    @apply text-[8px];
+  }
+  .form-header-line-header {
+    @apply text-[10px];
+  }
+  .home-banner-search-form input {
+    @apply w-[150px] py-1;
+  }
+  .home-banner-search-form button {
+    @apply py-1 px-2 -right-2;
+  }
+  /* Home banner */
 
-/* Desktop screens */
-/* Desktop screens */
+  /* Deals Box */
+  .deals-box-header b,
+  .deals-card-title {
+    @apply text-[12px];
+  }
+  .deals-card-company {
+    @apply text-sm;
+  }
+  .deals-tabs-btns {
+    @apply gap-1;
+  }
+  .deals-tabs-btn,
+  .deals-tabs-btn-active {
+    @apply px-2 py-1 text-[10px];
+  }
+  .delas-card-badge {
+    @apply text-[10px];
+  }
+  .deals-food-cards {
+    @apply gap-6;
+  }
+  /* Deals Box */
+
+  /* popular categories */
+  .popular-categories-cards-box {
+    @apply gap-6;
+  }
+  .Popular-Categories-Card {
+    @apply w-[160px];
+  }
+  .detail-box-Popular-Categories-Card b {
+    @apply text-[12px];
+  }
+  .detail-box-Popular-Categories-Card p {
+    @apply text-[10px];
+  }
+  /* popular categories */
+
+  /* popular restaurants */
+  .Popular-Restaurants-Card-box {
+    @apply gap-6;
+  }
+  .Popular-Restaurants-Card {
+    @apply w-[160px] rounded-md;
+  }
+  .Popular-Restaurants-Card b {
+    @apply text-[10px];
+  }
+  /* popular restaurants */
+
+  /* Download App */
+  .download-app-box {
+    @apply h-[51vh];
+  }
+  .card-character-pics-box {
+    @apply relative bottom-[67px] -left-[71px];
+  }
+  .card-character-pics-box .image1,
+  .card-character-pics-box .image2 {
+    @apply w-[420px];
+  }
+  .logo-box-download-app-section img {
+    @apply w-[8rem];
+  }
+  .logo-box-download-app-section b {
+    @apply text-[37px];
+  }
+  .text-details-box-download-app-box {
+    @apply relative top-9 -right-[74px];
+  }
+  .act-line-download-app {
+    @apply text-[0.575rem] font-bold;
+  }
+  .highlighted-text-box {
+    @apply text-[1rem] text-center w-[290px];
+  }
+  .mobile-store-badge-images img {
+    @apply w-[6rem];
+  }
+  /* Download App */
+
+  /* sign-up cards box */
+  .signup-cards-box {
+    @apply gap-2;
+  }
+  /* sign-up cards box */
+
+  /* know more about Us */
+  .more-about-us-box {
+    @apply p-6;
+  }
+  .tabs-btn-box-more-about-us-active,
+  .tabs-btn-box-more-about-us,
+  .question1-card b,
+  .question2-card b {
+    @apply px-2 text-[12px];
+  }
+  .header-more-about-us-box, .counter-box {
+    @apply hidden;
+  }
+  .header-title-more-about-us-box {
+    @apply text-[18px];
+  }
+  .help-info,
+  .questions-box,
+  .questions-answer-box,
+  .contact-form-more-about-us-box {
+    @apply w-[50%];
+  }
+  .qustion1-cards-box,
+  .qustion2-cards-box {
+    @apply gap-2 flex-col;
+  }
+  .question1-card p,
+  .question2-card p {
+    @apply text-[9px];
+  }
+  .question1-card img,
+  .question2-card img {
+    @apply w-[4rem];
+  }
+  .questions-box {
+    @apply pr-[0.25rem] pl-[1.25rem];
+  }
+  .Frequent-Questions-title {
+    @apply flex text-center w-full justify-center font-bold text-2xl;
+  }
+  /* know more about Us */
+}
+/* tab/ipad screens 899px - 650px  */
+
+/* tab/ipad screens 649px - 450px  */
+/* @media (max-width: 899px) and (min-width: 650px) {
+  
+} */
+/* tab/ipad screens 649px - 450px  */
+
+/* Mobile Screen screens 449px - 200px */
+/* @media (max-width: 899px) and (min-width: 650px) {
+  
+} */
+/* Mobile Screen screens 449px - 200px */
+
 /* Responsive code */

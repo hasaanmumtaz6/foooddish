@@ -20,7 +20,7 @@ const HomeBanner = () => {
         </p>
         <h3 className="banner-home-heading-one">Feast Your Senses,</h3>
         <h3 className="banner-home-heading-two">Fast and Fresh</h3>
-        <p className="text-[12px] pt-2">
+        <p className="text-[12px] pt-2 form-header-line-header">
           Enter a food name to see what we deliver
         </p>
 

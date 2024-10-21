@@ -3,7 +3,7 @@ import CounterBox from './CounterBox'
 
 const Counterdetail = () => {
   return (
-    <section className='py-6 w-full flex items-center'>
+    <section className='py-6 w-full flex items-center counter-box'>
       <div className="flex w-full p-4 bg-[var(--background-primary)] rounded-lg overflow-hidden">
         <CounterBox borderClass="border-r-[1px] border-r-[#f0f786]" target={547} label="Registered Riders" />
         <CounterBox borderClass="border-r-[1px] border-r-[#f0f786]" target={3275} label="Orders Delivered" />

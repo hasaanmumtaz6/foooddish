@@ -138,7 +138,7 @@ const MoreAboutUs = () => {
           </button>
         </span>
       </div>
-
+<h2 className="Frequent-Questions-title">Frequent Questions</h2>
       <div className="body-more-about-us-box">
         {active1 && (
           <div className="body-box-more-about-us-box frequent-question">

@@ -31,15 +31,39 @@
   .location-line-navbar {
     @apply hidden;
   }
-  .wallet-line-navbar span, .wallet-line-cont2 {
+  .wallet-line-navbar span,
+  .wallet-line-cont2 {
     @apply !text-lg;
   }
 }
 /* Desktop screens 1150px */
 
-/* tab/ipad screens */
-/* Desktop screens */
+/* tab/ipad screens 899px - 650px */
+@media (max-width: 899px) and (min-width: 650px) {
+  .offer-line-navbar {
+    @apply text-sm;
+  }
+  .location-line-navbar,
+  .number-of-dishes-navbar {
+    @apply hidden;
+  }
+  .wallet-line-navbar span,
+  .wallet-line-cont2 {
+    @apply !text-lg;
+  }
+  .offer-line-navbar p {
+    @apply text-[12px];
+  }
+  .offer-line-navbar img{
+    @apply w-[20px] h-[20px];
+  }
+}
+/* tab/ipad screens 899px - 650px  */
 
-/* Desktop screens */
-/* Desktop screens */
+/* tab/ipad screens 649px - 450px  */
+/* tab/ipad screens 649px - 450px  */
+
+/* Mobile Screen screens 449px - 200px */
+/* Mobile Screen screens 449px - 200px */
+
 /* Responsive code */
