@@ -1,5 +1,5 @@
 /* Header */
-.header {
+.header-desktop {
   @apply flex items-center gap-4 justify-between w-full py-4;
 }
 .tabs-Box {
@@ -59,6 +59,21 @@
 /* tab/ipad screens 649px - 450px  */
 
 /* Mobile Screen screens 449px - 200px */
+@media (max-width: 449px) and (min-width: 200px) {
+  .header {
+    @apply pt-0 pb-8;
+  }
+  .header-desktop {
+    @apply hidden;
+  }
+  .header-mobile {
+    @apply flex items-center w-full;
+  }
+  .header-mobile p,
+  .header-mobile svg {
+    @apply text-sm;
+  }
+}
 /* Mobile Screen screens 449px - 200px */
 
 /* Responsive code */

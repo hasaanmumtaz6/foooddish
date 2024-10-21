@@ -665,16 +665,19 @@
   /* Download app */
 
   /* sign-up-cards-box */
-  .signup-cards-box{
+  .signup-cards-box {
     @apply gap-2;
   }
-  .sign-up-business, .sign-up-rider{
+  .sign-up-business,
+  .sign-up-rider {
     @apply w-[48%];
   }
-  .signup-card-badge{
+  .signup-card-badge {
     @apply text-[8px] hidden;
   }
-  .signup-card-details p, .signup-card-details b, .signup-card-details a{
+  .signup-card-details p,
+  .signup-card-details b,
+  .signup-card-details a {
     @apply text-[8px] leading-3;
   }
   /* sign-up-cards-box */
@@ -724,9 +727,88 @@
 /* tab/ipad screens 649px - 450px  */
 
 /* Mobile Screen screens 449px - 200px */
-/* @media (max-width: 899px) and (min-width: 650px) {
-  
-} */
+@media (max-width: 449px) and (min-width: 200px) {
+  .home-page-box {
+    @apply px-5;
+  }
+  /* Home Banner */
+  .home-banner {
+    @apply bg-[var(--background-third)] text-white justify-center items-center text-center h-[70vh] p-6;
+  }
+  .pics-and-illustration-box-homebanner,
+  .character1-pic,
+  .btn-search-form-home-baaner,
+  .deals-tabs-btns {
+    @apply hidden;
+  }
+  .home-banner-search-form {
+    @apply justify-center;
+  }
+  .home-banner-search-form input {
+    @apply text-black;
+  }
+  .icon-btn-search-form-home-baaner {
+    @apply !p-2;
+  }
+  .home-banner-search-form button {
+    @apply right-4;
+  }
+  /* Home Banner */
+
+  /* Deals */
+  .deals-exclusive-box {
+    @apply hidden;
+  }
+  /* Deals */
+
+  /* Download app */
+  .download-app-box {
+    @apply h-[45vh] items-center justify-center mt-6 !p-[3rem];
+  }
+  .card-character-pics-box {
+    @apply hidden;
+  }
+  .logo-box-download-app-section img {
+    @apply w-[120px] h-auto;
+  }
+  .logo-box-download-app-section b {
+    @apply text-2xl;
+  }
+  .highlighted-text-box {
+    @apply w-[256px];
+  }
+  .mobile-store-badge-images img {
+    @apply w-[7rem];
+  }
+  .act-line-download-app {
+    @apply text-[8px] font-bold;
+  }
+  /* Download app */
+
+  /* sign-up-cards-box */
+  .signup-cards-box {
+    @apply gap-4 flex-col;
+  }
+  .sign-up-business,
+  .sign-up-rider {
+    @apply w-full;
+  }
+  .signup-card-badge {
+    @apply text-[8px];
+  }
+  .signup-card-details p,
+  .signup-card-details b,
+  .signup-card-details a {
+    @apply text-[12px] leading-3;
+  }
+  /* sign-up-cards-box */
+
+  /* know more about Us */
+  .more-about-us-box, .counter-box {
+    @apply hidden;
+  }
+  /* know more about Us */
+}
 /* Mobile Screen screens 449px - 200px */
 
 /* Responsive code */

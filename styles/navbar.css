@@ -84,6 +84,23 @@
 /* tab/ipad screens 649px - 450px  */
 
 /* Mobile Screen screens 449px - 200px */
+@media (max-width: 449px) and (min-width: 200px) {
+  .navbar-desktop {
+    @apply hidden;
+  }
+  .navbar-mobile {
+    @apply w-full flex items-center justify-between bg-[var(--background-secondry)] px-5 border-b-[1px] border-gray-200;
+  }
+  .navbar-logo-box-mobile{
+    @apply py-1;
+  }
+  .logo-mob-navbar-pic{
+    @apply w-[120px] h-auto;
+  }
+  .menu-navbar-icon{
+    @apply px-4 border-l-2 border-gray-300 py-4 text-3xl cursor-pointer;
+  }
+}
 /* Mobile Screen screens 449px - 200px */
 
 /* Responsive code */
