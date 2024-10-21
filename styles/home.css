@@ -25,6 +25,9 @@
 .banner-home-heading-two::selection {
   @apply bg-[var(--background-primary)] text-white;
 }
+.icon-btn-search-form-home-baaner {
+  @apply hidden;
+}
 /* Home-banner */
 
 /* Deals-header-box */
