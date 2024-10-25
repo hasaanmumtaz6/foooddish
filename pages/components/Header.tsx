@@ -16,7 +16,7 @@ const Header = () => {
           <span className="tabs">
             <Link href="/">Home</Link>
             <Link href="/">Special Offer</Link>
-            <Link href="/">Restaurants</Link>
+            <Link href="/restaurants">Restaurants</Link>
             <Link href="/">Track Order</Link>
           </span>
           <span className="reg-log-btn">

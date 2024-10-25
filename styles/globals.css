@@ -12,6 +12,7 @@
   --text-primary: #171717;
   --text-secondry: #fc8a06;
   --text-third: #fcfcfc;
+  --text-fourth: #03081f;
 }
 
 * {
@@ -21,8 +22,11 @@
 }
 
 /* layout */
-.layout {
-  @apply px-10 select-none;
+body {
+  @apply select-none;
+}
+.padding-off-box{
+  @apply px-10;
 }
 /* layout */
 

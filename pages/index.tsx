@@ -14,10 +14,10 @@ const Home = () => {
   return (
     <Layout>
       <Head>
-        <title>Foood Dish - Home</title>
+        <title>Home - FooodDish</title>
         <meta name="description" content="Bring delicious food at Home" />
       </Head>
-      <section className="home-page-box">
+      <section className="home-page-box padding-off-box">
         <HomeBanner />
         <Deals />
         <PopularCategories />

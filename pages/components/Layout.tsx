@@ -16,11 +16,11 @@ const poppins = Poppins({
 const Layout = ({ children }: LayoutProps) => {
   return (
     <main className={poppins.className}>
-      <section className="layout">
+      <section className="layout padding-off-box">
         <Navbar />
         <Header />
-        <section className="main-content">{children}</section>
       </section>
+      <section className="main-content">{children}</section>
       <Footer />
     </main>
   );
