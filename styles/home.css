@@ -781,10 +781,10 @@
 
 /* popular restaurants */
 .Popular-Restaurants-Card-box {
-  @apply gap-6;
+  @apply gap-3;
 }
 .Popular-Restaurants-Card {
-  @apply w-[160px] rounded-md;
+  @apply w-[120px] rounded-md;
 }
 .Popular-Restaurants-Card b {
   @apply text-[10px];
