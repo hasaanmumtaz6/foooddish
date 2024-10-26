@@ -751,10 +751,7 @@
     @apply text-black;
   }
   .icon-btn-search-form-home-baaner {
-    @apply !p-2;
-  }
-  .home-banner-search-form button {
-    @apply right-4;
+    @apply !p-2 flex !right-[-0.5rem];
   }
   /* Home Banner */
 
