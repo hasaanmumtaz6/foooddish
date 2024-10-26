@@ -766,13 +766,13 @@
   
 /* popular categories */
 .popular-categories-cards-box {
-  @apply gap-6;
+  @apply gap-2;
 }
 .Popular-Categories-Card {
-  @apply w-[160px];
+  @apply w-[120px];
 }
 .detail-box-Popular-Categories-Card b {
-  @apply text-[12px];
+  @apply text-[10px];
 }
 .detail-box-Popular-Categories-Card p {
   @apply text-[10px];
