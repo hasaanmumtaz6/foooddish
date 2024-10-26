@@ -51,10 +51,10 @@
 
 /* reataurants-search-header-box */
 .reataurants-search-header-box {
-  @apply flex items-center justify-between gap-6;
+  @apply flex items-center justify-between gap-6 mt-5;
 }
 .reataurants-search-header-box h4 {
-  @apply text-2xl font-bold mt-5 py-4;
+  @apply text-2xl font-bold py-4;
 }
 .reataurants-search-box {
   @apply flex items-center justify-between py-2 pl-6 rounded-full border-2 border-gray-500 text-black;
@@ -134,10 +134,289 @@
 .restaurants-cards-content-box p {
   @apply text-sm text-[var(--text-fourth)];
 }
-.restaurants-cards-image-box{
-    @apply relative w-full;
+.restaurants-cards-image-box {
+  @apply relative w-full;
 }
-.addcart-badge-res-card{
-    @apply absolute z-40 text-xl font-bold bottom-0 right-0 text-[var(--background-third)] bg-white px-3 pb-2 pt-3 rounded-tl-xl hover:text-white hover:bg-[var(--background-third)] transition-all duration-700 ease-in-out cursor-pointer;
+.addcart-badge-res-card {
+  @apply absolute z-40 text-xl font-bold bottom-0 right-0 text-[var(--background-third)] bg-white px-3 pb-2 pt-3 rounded-tl-xl hover:text-white hover:bg-[var(--background-third)] transition-all duration-700 ease-in-out cursor-pointer;
 }
 /* restaurants-cards */
+.search-icon-rest-page {
+  @apply hidden;
+}
+/* responsive design */
+/* Desktop screens 1150px */
+@media (max-width: 1150px) and (min-width: 900px) {
+  /* banner-restaurants */
+  .content-box-banner-restaurants {
+    @apply px-4 py-5;
+  }
+  .text-content-banner-restaurants h3 {
+    @apply text-[1rem];
+  }
+  .text-content-banner-restaurants .act-line-banner-restaurants {
+    @apply text-sm leading-4;
+  }
+  .banner-reataurants-btn {
+    @apply text-[0.7rem];
+  }
+  .banner-reataurants-btns-box {
+    @apply gap-2;
+  }
+  .restaurants-pic-bg-banner {
+    @apply h-[50vh];
+  }
+  /* banner-restaurants */
+
+  /* restaurants-navbar */
+  .restaurants-navbar,
+  .reataurants-search-box {
+    @apply hidden;
+  }
+  .search-icon-rest-page {
+    @apply flex items-center gap-4 text-2xl;
+  }
+  /* restaurants-navbar */
+
+  #Offer {
+    @apply gap-3 justify-center;
+  }
+  .dis-badge-res-offer-card {
+    @apply px-2 pb-2 pt-2 text-[12px];
+  }
+  .rest-content-box-offer-card p {
+    @apply text-[12px];
+  }
+  .addcart-badge-res-offer-card {
+    @apply text-[1.4rem];
+  }
+  .restaurants-cards {
+    @apply w-[49%];
+  }
+}
+/* Desktop screens 1150px */
+
+/* tab/ipad screens 899px - 650px */
+@media (max-width: 899px) and (min-width: 650px) {
+  /* banner-restaurants */
+  .content-box-banner-restaurants {
+    @apply px-4 py-5;
+  }
+  .text-content-banner-restaurants h3 {
+    @apply text-[1rem];
+  }
+  .badge-box-image-rate-content-banner-restaurants b {
+    @apply text-[2rem];
+  }
+  .text-content-banner-restaurants .act-line-banner-restaurants {
+    @apply text-sm leading-4;
+  }
+  .banner-reataurants-btn {
+    @apply text-[0.7rem];
+  }
+  .banner-reataurants-btns-box {
+    @apply gap-2 flex-col;
+  }
+  .restaurants-pic-bg-banner {
+    @apply h-[40vh];
+  }
+  .text-content-banner-restaurants,
+  .image-rate-content-banner-restaurants {
+    @apply w-1/2;
+  }
+  .restaurants-pic-banner {
+    @apply w-[90%];
+  }
+  .badge-box-image-rate-content-banner-restaurants {
+    @apply -left-[1.5rem] -bottom-[1.5rem];
+  }
+  /* banner-restaurants */
+
+  /* restaurants-navbar */
+  .restaurants-navbar,
+  .reataurants-search-box {
+    @apply hidden;
+  }
+  .search-icon-rest-page {
+    @apply flex items-center gap-4 text-2xl;
+  }
+  /* restaurants-navbar */
+
+  #Offer {
+    @apply gap-6 justify-center;
+  }
+  .restaurants-offer-card {
+    @apply w-full;
+  }
+  .restaurants-card-box {
+    @apply gap-5;
+  }
+  .restaurants-cards {
+    @apply w-[48%] flex-col-reverse;
+  }
+  .dis-badge-res-offer-card {
+    @apply px-2 pb-2 pt-2 text-[12px];
+  }
+  .rest-content-box-offer-card p {
+    @apply text-[12px];
+  }
+  .addcart-badge-res-offer-card {
+    @apply text-[1.4rem];
+  }
+  .addcart-badge-res-card {
+    @apply rounded-br-md;
+  }
+}
+/* tab/ipad screens 899px - 650px  */
+
+/* tab/ipad screens 649px - 450px  */
+@media (max-width: 649px) and (min-width: 450px) {
+  /* banner-restaurants */
+  .content-box-banner-restaurants {
+    @apply px-4 py-8;
+  }
+  .text-content-banner-restaurants h3 {
+    @apply text-[2rem];
+  }
+  .badge-box-image-rate-content-banner-restaurants b {
+    @apply text-[2rem];
+  }
+  .text-content-banner-restaurants .act-line-banner-restaurants {
+    @apply text-sm leading-4;
+  }
+  .banner-reataurants-btn {
+    @apply text-[0.7rem];
+  }
+  .banner-reataurants-btns-box {
+    @apply gap-2 flex-col;
+  }
+  .restaurants-pic-bg-banner {
+    @apply h-[50vh];
+  }
+  .text-content-banner-restaurants {
+    @apply w-full items-center justify-center text-center;
+  }
+  .image-rate-content-banner-restaurants {
+    @apply hidden;
+  }
+  .badge-box-image-rate-content-banner-restaurants {
+    @apply -left-[1.5rem] -bottom-[1.5rem];
+  }
+  /* banner-restaurants */
+
+  /* restaurants-navbar */
+  .restaurants-navbar,
+  .reataurants-search-box {
+    @apply hidden;
+  }
+  .search-icon-rest-page {
+    @apply flex items-center gap-4 text-2xl;
+  }
+  /* restaurants-navbar */
+
+  #Offer {
+    @apply gap-6 justify-center;
+  }
+  .restaurants-offer-card {
+    @apply w-full;
+  }
+  .restaurants-card-box {
+    @apply gap-5;
+  }
+  .restaurants-cards {
+    @apply w-[100%] flex-col-reverse;
+  }
+  .dis-badge-res-offer-card {
+    @apply px-2 pb-2 pt-2 text-[12px];
+  }
+  .rest-content-box-offer-card p {
+    @apply text-[12px];
+  }
+  .addcart-badge-res-offer-card {
+    @apply text-[1.4rem];
+  }
+  .addcart-badge-res-card {
+    @apply rounded-br-md;
+  }
+}
+/* tab/ipad screens 649px - 450px  */
+
+/* Mobile Screen screens 449px - 200px */
+@media (max-width: 449px) and (min-width: 200px) {
+    .reataurants-box .padding-off-box{
+        @apply px-[1.5rem];
+    }
+    .reataurants-search-header-box h4{
+        @apply text-sm;
+    }
+  /* banner-restaurants */
+  .content-box-banner-restaurants {
+    @apply px-4 py-8;
+  }
+  .text-content-banner-restaurants h3 {
+    @apply text-[1.5rem];
+  }
+  .badge-box-image-rate-content-banner-restaurants b {
+    @apply text-[2rem];
+  }
+  .text-content-banner-restaurants .act-line-banner-restaurants {
+    @apply text-sm leading-4;
+  }
+  .banner-reataurants-btn {
+    @apply text-[0.7rem];
+  }
+  .banner-reataurants-btns-box {
+    @apply gap-2 flex-col;
+  }
+  .restaurants-pic-bg-banner {
+    @apply h-[50vh];
+  }
+  .text-content-banner-restaurants {
+    @apply w-full items-center justify-center text-center;
+  }
+  .image-rate-content-banner-restaurants {
+    @apply hidden;
+  }
+  .badge-box-image-rate-content-banner-restaurants {
+    @apply -left-[1.5rem] -bottom-[1.5rem];
+  }
+  /* banner-restaurants */
+
+  /* restaurants-navbar */
+  .restaurants-navbar,
+  .reataurants-search-box {
+    @apply hidden;
+  }
+  .search-icon-rest-page {
+    @apply flex items-center gap-4 text-2xl;
+  }
+  /* restaurants-navbar */
+
+  #Offer {
+    @apply gap-6 justify-center;
+  }
+  .restaurants-offer-card {
+    @apply w-full;
+  }
+  .restaurants-card-box {
+    @apply gap-5;
+  }
+  .restaurants-cards {
+    @apply w-[100%] flex-col-reverse;
+  }
+  .dis-badge-res-offer-card {
+    @apply px-2 pb-2 pt-2 text-[12px];
+  }
+  .rest-content-box-offer-card p {
+    @apply text-[12px];
+  }
+  .addcart-badge-res-offer-card {
+    @apply text-[1.4rem];
+  }
+  .addcart-badge-res-card {
+    @apply rounded-br-md;
+  }
+}
+/* Mobile Screen screens 449px - 200px */
+
+/* responsive design */

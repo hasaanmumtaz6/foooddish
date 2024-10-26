@@ -8,6 +8,7 @@ import Link from "next/link";
 import RestaurantsOfferCard from "./components/RestaurantsOfferCard";
 import offerPic from "@/public/img/offerPic.png";
 import RestaurantsCards from "./components/RestaurantsCards";
+import { MdMenu } from "react-icons/md";
 
 const Restaurants = () => {
   const [active1, setActive1] = useState(false);
@@ -191,6 +192,10 @@ const Restaurants = () => {
                 id="searchBox"
               />
             </form>
+            <span className="search-icon-rest-page">
+              <FaSearch />
+              <MdMenu />
+            </span>
           </div>
         </section>
 
