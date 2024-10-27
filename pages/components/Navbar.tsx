@@ -1,13 +1,27 @@
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import star from "@/public/img/star.png";
-import { FaLocationDot, FaMoneyCheckDollar } from "react-icons/fa6";
-import { FaArrowCircleDown } from "react-icons/fa";
+import {
+  FaLocationDot,
+  FaMoneyCheckDollar,
+  FaSquareXTwitter,
+} from "react-icons/fa6";
+import {
+  FaArrowCircleDown,
+  FaFacebookSquare,
+  FaInstagramSquare,
+} from "react-icons/fa";
 import { RiShoppingBasketFill } from "react-icons/ri";
 import logo from "@/public/img/logo.png";
-import { MdMenu } from "react-icons/md";
+import { MdClose, MdMenu } from "react-icons/md";
+import Link from "next/link";
+import { AiFillTikTok } from "react-icons/ai";
 
 const Navbar = () => {
+  const [active, setActive] = useState(false);
+  const onEventActive = () => {
+    setActive(!active);
+  };
   return (
     <nav className="navbar">
       <div className="navbar-desktop">
@@ -48,8 +62,37 @@ const Navbar = () => {
           />
         </span>
         <button className="menu-navbar-icon">
-          <MdMenu className="menu-icon-mob-navbar" />
+          <MdMenu className="menu-icon-mob-navbar" onClick={onEventActive} />
         </button>
+        {active && (
+          <div className="Menu-Tabs-mobile-box">
+            <button className="menu-closeer-mobile">
+              <MdClose onClick={onEventActive} />
+            </button>
+            <div className="menu-tabs-mobile-container">
+              <span className="tabs-box-mobile">
+                <Link href="/">Home</Link>
+                <Link href="/">Special Offer</Link>
+                <Link href="/restaurants">Restaurants</Link>
+                <Link href="/">Track Dish</Link>
+              </span>
+              <span className="social-Links-mob-tabs">
+                <Link href="/">
+                  <FaFacebookSquare />
+                </Link>
+                <Link href="/">
+                  <FaSquareXTwitter />
+                </Link>
+                <Link href="/">
+                  <AiFillTikTok />
+                </Link>
+                <Link href="/">
+                  <FaInstagramSquare />
+                </Link>
+              </span>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );
