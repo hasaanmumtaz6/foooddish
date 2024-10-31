@@ -17,7 +17,7 @@ const Header = () => {
             <Link href="/">Home</Link>
             <Link href="/">Special Offer</Link>
             <Link href="/restaurants">Restaurants</Link>
-            <Link href="/">Track Order</Link>
+            <Link href="/tracker">Track Order</Link>
           </span>
           <span className="reg-log-btn">
             <FaUserCircle />

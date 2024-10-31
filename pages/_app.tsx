@@ -4,6 +4,7 @@ import "@/styles/header.css";
 import "@/styles/footer.css";
 import "@/styles/home.css";
 import "@/styles/restaurants.css";
+import "@/styles/tracker.css";
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {

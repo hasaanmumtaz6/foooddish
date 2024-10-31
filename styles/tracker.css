@@ -1,0 +1,54 @@
+/* track-banner */
+.track-banner-box {
+  @apply relative overflow-hidden rounded-lg w-full z-30;
+}
+.track-banner-container .track-banner-pic-main {
+  @apply w-full h-auto rounded-lg;
+}
+.banner-content-track-order {
+  @apply w-full h-full absolute top-0 right-0 flex items-center justify-between p-10;
+  background: linear-gradient(
+    332.7deg,
+    rgba(243, 242, 242, 0.521) 0.94%,
+    rgba(253, 253, 253, 0.692) 51.68%,
+    rgba(255, 255, 255, 0.89) 87.9%
+  );
+}
+.text-btn-content-track-order-banner {
+  @apply flex flex-col gap-2;
+}
+.text-btn-content-track-order-banner h4 {
+  @apply text-[var(--text-fourth)] font-bold text-5xl;
+}
+.text-btn-content-track-order-banner h3 {
+  @apply text-[var(--text-secondry)] font-bold text-5xl;
+}
+.text-btn-content-track-order-banner p {
+  @apply text-[#ababab] font-normal text-lg;
+}
+.text-btn-content-track-order-banner-btn-box {
+  @apply flex items-center gap-2;
+}
+.text-btn-content-track-order-banner-btn-box a {
+  @apply px-6 py-1 rounded-full transition-all duration-700 ease-in-out border-[1px];
+}
+.text-btn-content-track-order-banner-btn-box .link01 {
+  @apply bg-[var(--background-third)] text-white hover:border-[var(--background-third)] hover:bg-transparent hover:text-[var(--text-fourth)];
+}
+.text-btn-content-track-order-banner-btn-box .link02 {
+  @apply bg-[var(--background-primary)] text-white hover:border-[var(--background-primary)] hover:bg-transparent hover:text-[var(--text-secondry)];
+}
+.pic-box-track-order-banner {
+  @apply w-full h-full rounded-lg overflow-hidden;
+}
+.pic-box-track-order-banner .characterpic {
+  @apply w-[360px] h-full rounded-lg;
+}
+.ills-box-track-order-banner .characterills {
+  @apply w-[344px] h-full rounded-lg absolute top-12 z-40 right-[240px];
+}
+/* track-banner */
+
+
+/* order-tracker-box */
+/* order-tracker-box */

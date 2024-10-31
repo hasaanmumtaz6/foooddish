@@ -74,7 +74,7 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
                 <Link href="/">Special Offer</Link>
                 <Link href="/restaurants">Restaurants</Link>
-                <Link href="/">Track Dish</Link>
+                <Link href="/tracker">Track Dish</Link>
               </span>
               <span className="social-Links-mob-tabs">
                 <Link href="/">
