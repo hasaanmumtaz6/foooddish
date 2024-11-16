@@ -94,7 +94,7 @@ const Footer = () => {
         <span className="footer-tabs">
           <Link href="/">Privacy Policy</Link>
           <Link href="/">Terms</Link>
-          <Link href="/">Pricing</Link>
+          <Link href="/pricing">Pricing</Link>
           <p>Do not sell or share my personal information</p>
         </span>
       </div>
