@@ -75,6 +75,9 @@ const Navbar = () => {
                 <Link href="/">Special Offer</Link>
                 <Link href="/restaurants">Restaurants</Link>
                 <Link href="/tracker">Track Dish</Link>
+                <Link href="/pricing">Pricing</Link>
+                <Link href="/terms">Terms</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
               </span>
               <span className="social-Links-mob-tabs">
                 <Link href="/">

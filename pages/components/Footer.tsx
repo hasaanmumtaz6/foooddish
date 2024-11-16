@@ -92,8 +92,8 @@ const Footer = () => {
       <div className="copyright-line">
         <p>Foood Dish &copy; Copyright 2024, All Rights Reserved.</p>
         <span className="footer-tabs">
-          <Link href="/">Privacy Policy</Link>
-          <Link href="/">Terms</Link>
+          <Link href="/privacy-policy">Privacy Policy</Link>
+          <Link href="/terms">Terms</Link>
           <Link href="/pricing">Pricing</Link>
           <p>Do not sell or share my personal information</p>
         </span>
