@@ -4,9 +4,7 @@ import { FaAnglesDown, FaAnglesUp } from "react-icons/fa6";
 
 const Contact = () => {
   const [opner, setOpner] = useState(true);
-  const mapOpner = () => {
-    setOpner(true);
-  };
+
   return (
     <section
       className="contact-section-container padding-off-box pb-10 pt-4"
