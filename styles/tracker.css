@@ -49,6 +49,269 @@
 }
 /* track-banner */
 
+/* order-tracker-box/dishtrack */
+.tracker-box {
+  @apply flex items-start justify-start w-full h-full py-4 gap-4;
+}
+.tracker-place {
+  @apply flex flex-col gap-3;
+}
+.tracker-place-details {
+  @apply flex flex-col gap-2 transition-all duration-700 ease-in-out bg-transparent border-y-2 border-y-gray-200 hover:shadow-lg hover:shadow-gray-300 rounded-lg p-5 w-[320px] border-x-4 border-x-[var(--background-primary)] cursor-pointer;
+}
+.tracker-place-details h4 {
+  @apply text-xl text-[var(--text-secondry)] font-bold;
+}
+.tracker-place-details p {
+  @apply text-sm text-[#b8b8b8] font-normal;
+}
+.tracker-place-card-about {
+  @apply w-full h-[88vh] border-y-4 border-x-2 border-x-gray-200 border-y-[var(--background-primary)] p-5 flex items-start gap-4 flex-col rounded-md;
+}
+.ridder-card-box {
+  @apply flex flex-col border-4 border-[var(--background-third)] rounded-lg hover:shadow-lg hover:shadow-gray-300 min-h-[160px] border-dashed gap-4 p-4 overflow-scroll overflow-x-hidden max-h-[340px] relative mb-4;
+}
+.ridder-card-box::-webkit-scrollbar {
+  @apply w-1;
+}
+.rider-detail-card1,
+.rider-detail-card2 {
+  @apply p-4 border-[var(--background-primary)] border-2 hover:shadow-md hover:shadow-gray-300 flex items-center gap-4 justify-center rounded-lg transition-all duration-700 ease-in-out cursor-pointer;
+}
+.rider-detail-card2 {
+  @apply flex-row-reverse;
+}
+.rider-detail-card1 h6,
+.rider-detail-card2 h6 {
+  @apply text-xl text-[var(--text-secondry)] font-bold;
+}
+.total-price-box {
+  @apply flex items-center justify-between gap-4 p-2 bg-[var(--background-third)] w-full text-white rounded-md border-4 border-dashed border-white shadow-md shadow-gray-300;
+}
+/* order-tracker-box */
 
-/* order-tracker-box */
-/* order-tracker-box */
+/* contact-form */
+.contact-section-box {
+  @apply flex items-start justify-start gap-6;
+}
+.contact-form {
+  @apply flex flex-col gap-3;
+}
+.contact-form input,
+.contact-form textarea {
+  @apply py-2 px-4 rounded-md w-[320px] outline-none border-gray-200 border-[1px] shadow-md shadow-gray-300 border-x-4 border-x-[var(--background-primary)];
+}
+.contact-form button {
+  @apply bg-[var(--background-third)] w-[320px] rounded-md px-4 py-2 text-white shadow-md shadow-gray-300;
+}
+.contact-form textarea {
+  @apply min-h-[150px] max-h-[150px];
+}
+.contact-address-container,
+.about-us-container {
+  @apply flex flex-col gap-3 items-start justify-start p-4 border-gray-200 border-[1px] shadow-md shadow-gray-300 border-y-4 border-y-[var(--background-primary)] w-[33vw] transition-all duration-700 ease-in-out relative;
+}
+.contact-address-box {
+  @apply flex flex-col gap-2 items-start justify-start;
+}
+.contact-address-conatiner-title,
+.about-us-container h3 {
+  @apply w-full text-center font-bold text-xl text-[var(--text-fourth)];
+}
+.map {
+  @apply w-[30.5vw] h-[30vh] rounded-lg my-4;
+}
+.box-opner-contact-address {
+  @apply p-2 bg-[var(--background-third)] text-white rounded-full text-xl absolute -bottom-5 right-[47%] cursor-pointer;
+}
+.about-us-container b {
+  @apply text-[14px] text-[var(--text-secondry)];
+}
+.about-us-container p {
+  @apply text-sm text-gray-500;
+}
+.about-us-container sup {
+  @apply text-[var(--text-fourth)];
+}
+/* contact-form */
+
+@media (max-width: 1000px) and (min-width: 901px) {
+  .ills-box-track-order-banner .characterills {
+    @apply w-[300px] right-[150px];
+  }
+  .pic-box-track-order-banner .characterpic {
+    @apply w-[280px];
+  }
+  .text-btn-content-track-order-banner h4,
+  .text-btn-content-track-order-banner h3 {
+    @apply text-[2rem];
+  }
+  .text-btn-content-track-order-banner p {
+    @apply text-[0.8rem];
+  }
+  .tracker-box {
+    @apply flex-col;
+  }
+  .tracker-place {
+    @apply flex-row flex-wrap justify-center;
+  }
+  .tracker-place-details {
+    @apply w-[49%];
+  }
+  .about-us-container {
+    @apply hidden;
+  }
+  .contact-form-container {
+    @apply w-[40%];
+  }
+  .contact-address-container {
+    @apply w-[60%];
+  }
+  .map {
+    @apply w-[48vw];
+  }
+}
+@media (max-width: 900px) and (min-width: 701px) {
+  .ills-box-track-order-banner .characterills {
+    @apply w-[200px] right-[90px];
+  }
+  .pic-box-track-order-banner .characterpic {
+    @apply w-[190px];
+  }
+  .text-btn-content-track-order-banner h4,
+  .text-btn-content-track-order-banner h3 {
+    @apply text-[2rem];
+  }
+  .text-btn-content-track-order-banner p {
+    @apply text-[0.8rem];
+  }
+  .tracker-box {
+    @apply flex-col;
+  }
+  .tracker-place {
+    @apply flex-row flex-wrap justify-center;
+  }
+  .tracker-place-details {
+    @apply w-[49%];
+  }
+  .about-us-container {
+    @apply hidden;
+  }
+  .contact-form-container {
+    @apply w-[50%];
+  }
+  .contact-address-container {
+    @apply w-[50%];
+  }
+  .map {
+    @apply w-[36vw] flex justify-center items-center;
+  }
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    @apply w-[280px];
+  }
+}
+@media (max-width: 700px) and (min-width: 461px) {
+  .ills-box-track-order-banner .characterills,
+  .pic-box-track-order-banner .characterpic,
+  .three-d-effect,
+  .about-us-container {
+    @apply hidden;
+  }
+  .text-btn-content-track-order-banner {
+    @apply justify-center items-center w-full;
+  }
+  .text-btn-content-track-order-banner h4,
+  .text-btn-content-track-order-banner h3 {
+    @apply text-[2rem];
+  }
+  .track-banner-container {
+    @apply h-[40vh];
+  }
+  .track-banner-box,
+  .track-banner-container .track-banner-pic-main {
+    @apply h-full;
+  }
+  .text-btn-content-track-order-banner p {
+    @apply text-[1rem] text-gray-600;
+  }
+  .tracker-box,
+  .contact-section-box {
+    @apply flex-col justify-center items-center;
+  }
+  .tracker-place {
+    @apply flex-row flex-wrap justify-center;
+  }
+  .tracker-place-details {
+    @apply w-[100%];
+  }
+  .contact-form-container,
+  .contact-address-container {
+    @apply w-full;
+  }
+  .map {
+    @apply w-[60vw] flex justify-center items-center;
+  }
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    @apply w-full;
+  }
+}
+@media (max-width: 460px) and (min-width: 220px) {
+  .ills-box-track-order-banner .characterills,
+  .pic-box-track-order-banner .characterpic,
+  .three-d-effect,
+  .about-us-container {
+    @apply hidden;
+  }
+  .text-btn-content-track-order-banner {
+    @apply justify-center items-center w-full;
+  }
+  .text-btn-content-track-order-banner h4,
+  .text-btn-content-track-order-banner h3 {
+    @apply text-[1.2rem];
+  }
+  .track-banner-container {
+    @apply h-[30vh];
+  }
+  .dish-tracker-box, .track-banner-container, .contact-section-container{
+    @apply px-4;
+  }
+  .track-banner-box,
+  .track-banner-container .track-banner-pic-main {
+    @apply h-full;
+  }
+  .text-btn-content-track-order-banner p {
+    @apply text-[0.6rem] text-gray-600;
+  }
+  .tracker-box,
+  .contact-section-box {
+    @apply flex-col justify-center items-center;
+  }
+  .tracker-place {
+    @apply flex-row flex-wrap justify-center;
+  }
+  .tracker-place-details {
+    @apply w-[100%];
+  }
+  .contact-form-container,
+  .contact-address-container {
+    @apply w-full;
+  }
+  .map {
+    @apply w-[75vw] flex justify-center items-center;
+  }
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    @apply w-full;
+  }
+  .banner-content-track-order {
+    @apply p-[1.5rem];
+  }
+  .text-btn-content-track-order-banner-btn-box a{
+    @apply text-[0.8rem] px-3;
+  }
+}

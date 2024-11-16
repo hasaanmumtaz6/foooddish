@@ -2,6 +2,8 @@ import React from "react";
 import Layout from "./components/Layout";
 import Head from "next/head";
 import TrackBanner from "./components/TrackBanner";
+import TrackDish from "./components/TrackDish";
+import Contact from "./components/Contact";
 
 const Tracker = () => {
   return (
@@ -11,6 +13,8 @@ const Tracker = () => {
       </Head>
       <main className="track-order-container">
         <TrackBanner />
+        <TrackDish /> 
+        <Contact />
       </main>
     </Layout>
   );

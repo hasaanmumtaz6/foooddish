@@ -23,7 +23,7 @@ const TrackBanner = () => {
             <p>Real-time tracking to your door.</p>
             <span className="text-btn-content-track-order-banner-btn-box">
                 <Link className="link01" href="#track">Track Dish</Link>
-                <Link className="link02" href="#contacttrack">Contact us</Link>
+                <Link className="link02" href="#contact">Contact us</Link>
             </span>
           </div>
           <div className="illustration-pic-content-order-banner">
