@@ -5,7 +5,7 @@ Welcome to **FooodDish** – your ultimate food delivery companion! Built with t
 ---
 
 ## 🥗 About FooodDish  
-🌟 **FooodDish** is a leading food delivery service operating for over **two years** in **20 major cities** across USA, including:  
+🌟 **FooodDish** is a leading food delivery service operating for over **two years** in **20 major States** across USA, including:  
 📍 **California**  
 📍 **Newyork**  
 📍 **Florida**  
