@@ -1,0 +1,13 @@
+Proprietary License
+
+Copyright (c) 2025 Ethan James/FOOODDISH
+
+All rights reserved.
+
+This Web app and associated documentation files (the "WEB APP") are the exclusive property of Ethan James/FOOODDISH and are protected by copyright law and international copyright treaties.
+
+Unauthorized copying, modification, distribution, or use of this Web App, in whole or in part, is strictly prohibited without prior written permission from the copyright owner.
+
+The Web App is provided "AS IS," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the copyright owner be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Web App or the use or other dealings in the Web App.
+
+For inquiries about licensing or usage, please contact: ethanjamesfood@gmail.com
